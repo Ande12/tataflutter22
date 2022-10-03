@@ -1,0 +1,135 @@
+header {
+    width: $header-width;
+    height: $header-height;
+    padding: $header-padding;
+    
+
+    .header-nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: $header-nav-bar-width;
+        height: $header-nav-bar-height;
+        margin: $header-nav-bar-margin;
+        
+
+        .nav-bar-left {
+            @include listStyle;
+             width: 185px;
+           
+            a {
+                @include textDecoration;
+                
+               
+                svg {
+                    height: $header-svg-height;
+                    width: $header-svg-width;
+                   
+
+                }
+            }
+        }
+
+        .nav-links {
+            @include listStyle;
+            display: inline-flex;
+            justify-content: space-between;
+            width: 530.88px;
+            height: 38px;
+            @include fontStyle;
+            
+            margin-bottom: 20px;
+
+            li {
+                @include fontStyle;
+                position: relative;
+                
+                &:hover {
+                    ul {
+                        display: block;
+                        text-align: left;
+                    }
+                }
+                    ul {
+                        @include listStyle;
+                        display: none;
+                        position: absolute;
+                        background: #fff;
+                        z-index: 5;
+                        width: $dropdown-width;
+                        height:$dropdown-height;
+                        border-radius: 5px;
+                        box-shadow: 10px 10px 30px 20px rgba(220, 219, 219, 0.537);
+
+                        li {
+                            .dropdown-item-1-icon {
+                                @include textDecoration;
+                                @include fontStyle;
+                                display: grid;
+                                grid-template-columns: auto auto;
+
+
+                                svg{
+                                    width: $header-nav-link-icon-width;
+                                    height: $header-nav-link-icon-width;
+                                }
+                                .dropdown-item-1-info{
+                                    width: $dropdown-item-1-info-width;
+                                    height: $dropdown-item-1-info-height;
+
+                                    .dropdown-item-1-title{
+                                        font-family: moderat-bold;
+                                        font-size: 15px;
+                                        line-height: 18px;
+                                        color: $header-nav-line-color;
+
+                                        &:hover{
+                                            color: $header-nav-line-hover-color;
+                                        }
+                                    }
+                                    .dropdown-item-1-detail{
+                                        font-family: moderat-regular;
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+            }
+            .nav-link-item-nodrop{
+                &:hover{
+                    color: $header-nav-line-hover-color;
+                }
+            }
+        }
+
+        .nav-bar-right {
+            @include listStyle;
+            
+
+            li {
+                
+                a {
+                    width: 168.64px;
+                    height: 47px;
+                    @include textDecoration;
+                    font: $header-nav-button-font;
+                    padding: $header-nav-button-padding;
+                    background: $header-nav-button-background;
+                    color: $header-nav-button-color;
+                    border-radius: $header-nav-button-border-radius;
+                   
+                    &:hover{
+                        background: $header-nav-line-color;
+                        color: #fff;
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+}

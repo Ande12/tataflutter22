@@ -1,0 +1,35 @@
+header {
+    width: $header-width;
+    height: $header-height;
+    padding: $header-padding;
+
+    .header-nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: $header-nav-bar-width;
+        height: $header-nav-bar-height;
+        margin: $header-nav-bar-margin;
+        
+
+        .nav-bar-left {
+            // @include listStyle;
+             width: 185px;
+           
+            a {
+                // @include textDecoration;
+                
+               
+                svg {
+                    height: $header-svg-height;
+                    width: $header-svg-width;
+                   
+
+                }
+            }
+        }
+        .nav-links{
+            display: none;
+        }
+    }
+}         

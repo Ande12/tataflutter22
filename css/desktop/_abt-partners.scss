@@ -1,0 +1,46 @@
+.about-partners{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+
+    .column-1{
+        
+        a{
+            padding-left: 128.5px;
+            @include textDecoration;
+            
+
+            button{
+                font-size: 16px;
+                font-family: moderat-medium;
+                border-radius: $header-nav-button-border-radius;
+                background: $header-nav-button-hover-color;
+                color: #fff;
+                padding: 21px 24px; 
+                margin-bottom: 80px;
+            }
+            
+            .foot-city{
+                width: 749.91px;
+                height:752px;
+            }
+            
+        }
+    }
+
+    .column-2{
+        img{
+            width: 534.08px;
+            height:680px;
+        }
+        p{
+            margin-top: 74px;
+            color: #1d1d1d;
+            font-family: moderat-light;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 32px;
+        }
+    }
+}

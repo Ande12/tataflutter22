@@ -1,0 +1,296 @@
+footer {
+    max-width: 80%;
+    margin: 0 auto;
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        padding-bottom: 70px;
+        z-index: 3;
+
+        .important_details {
+            ul {
+                li {
+                    list-style: none;
+                    padding-top: 20px;
+
+                    a {
+                        color: black;
+                        font-weight: 300;
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-family: moderat-light;
+                        line-height: 19px;
+                    }
+
+                    b {
+                        color: black;
+                        font-size: 18px;
+                        line-height: 20px;
+                        color: #1d1d1d;
+                        font-family: moderat-bold;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    // my java stuff
+    .trial {
+        // display: none;
+        // position: absolute;
+        .about-countries {
+            position: absolute;
+            left:130px;
+            top: 9950px;
+            width: 50%;
+            display: flex;
+            z-index: 5;
+            gap: 50px;
+            padding: 0px 50px 40px 50px;
+            margin: 5px 5px -20px 5px;
+            border-radius: 8px;
+            box-shadow: 1px 10px 36px 15px rgba(0, 0, 0, 0.127);
+
+            ul {
+                li {
+                    list-style: none;
+                    padding-top: 30px;
+
+                    .country-button {
+                        display: flex;
+
+                        .count-flag {
+                            width: 26px;
+                            height: 20px;
+                            border-radius: 5px;
+                            margin-right: 8px;
+                            // background-size: cover;
+                            background-repeat: no-repeat;
+                        }
+
+                        .country-name {
+                            padding-top: 5px;
+                        }
+                    }
+                }
+
+                .cam {
+                    .count-flag {
+                        background-image: url('../images/cm.svg');
+                    }
+                }
+
+                .ic {
+                    .count-flag {
+                        background-image: url('../images/ci.svg');
+                    }
+                }
+
+                .mau {
+                    .count-flag {
+                        background-image: url('../images/mu.svg');
+                    }
+                }
+
+                .rwa {
+                    .count-flag {
+                        background-image: url('../images/rw.svg');
+                    }
+                }
+
+                .tan {
+                    .count-flag {
+                        background-image: url('../images/tz.svg');
+                    }
+                }
+
+                .us {
+                    .count-flag {
+                        background-image: url('../images/us.svg');
+                    }
+                }
+
+                .eg {
+                    .count-flag {
+                        background-image: url('../images/us.svg');
+                    }
+                }
+
+                .ken {
+                    .count-flag {
+                        background-image: url('../images/ke.svg');
+                    }
+                }
+
+                .nig {
+                    .count-flag {
+                        background-image: url('../images/ng.svg');
+                    }
+                }
+
+                .sen {
+                    .count-flag {
+                        background-image: url('../images/sn.svg');
+                    }
+                }
+
+                .uga {
+                    .count-flag {
+                        background-image: url('../images/ug.svg');
+                    }
+                }
+
+                .zam {
+                    .count-flag {
+                        background-image: url('../images/zm.svg');
+                    }
+                }
+
+                .gha {
+                    .count-flag {
+                        background-image: url('../images/gh.svg');
+                    }
+                }
+
+                .mal {
+                    .count-flag {
+                        background-image: url('../images/mw.svg');
+                    }
+                }
+
+                .eur {
+                    .count-flag {
+                        background-image: url('../images/eu.svg');
+                    }
+                }
+
+                .sa {
+                    .count-flag {
+                        background-image: url('../images/za.svg');
+                    }
+                }
+
+                .uk {
+                    .count-flag {
+                        background-image: url('../images/zm.svg');
+                    }
+                }
+            }
+        }
+    }
+    hr{
+        z-index: 5;
+    }
+    .footer-lines {
+
+        .social-media-links {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 25px;
+
+
+            .countries {
+                li {
+                    list-style: none;
+
+                    .country-button {
+                        display: flex;
+
+                        .count-flag {
+                            width: 24px;
+                            height: 23px;
+                            border-radius: 50%;
+                            margin-right: 8px;
+                            background-image: url('../images/cm.svg');
+                            // background-repeat: no-repeat;
+                            // background-size: contain;
+
+                        }
+
+                        .country-name {
+                            padding-top: 5px;
+                        }
+
+                        &:hover {
+                            color: $header-nav-line-hover-color;
+                            
+                        }
+                    }
+
+                    
+                }
+
+            }
+
+            .links {
+
+                display: flex;
+                padding-bottom: 30px;
+
+                li {
+                    list-style: none;
+                    text-decoration: none;
+
+                    a {
+                        padding-left: 30px;
+                        color: black;
+                        font-weight: 300;
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-family: moderat-light;
+                        line-height: 19px;
+
+                        &:hover {
+                            color: $header-nav-line-hover-color;
+                        }
+                    }
+
+
+
+                }
+            }
+        }
+
+        .flutterwave-policies {
+            display: flex;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            justify-content: space-between;
+
+            .flutterwavego-copyright {
+                color: black;
+                font-weight: 300;
+                font-size: 16px;
+                font-family: moderat-light;
+                line-height: 19px;
+            }
+
+            .links {
+                display: flex;
+
+                li {
+
+                    list-style: none;
+                    text-decoration: none;
+
+                    a {
+                        padding-left: 30px;
+                        color: black;
+                        font-weight: 300;
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-family: moderat-light;
+                        line-height: 19px;
+
+                        &:hover {
+                            color: $header-nav-line-hover-color;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

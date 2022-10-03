@@ -1,0 +1,819 @@
+@font-face {
+  font-family: moderat-light;
+  src: url("../fonts/Moderat-Light.716cf7f.ttf");
+}
+@font-face {
+  font-family: moderat-regular;
+  src: url("../fonts/Moderat-Regular.a2f5d8f.ttf");
+}
+@font-face {
+  font-family: moderat-medium;
+  src: url("../fonts/Moderat-Medium.9a1678a.ttf");
+}
+@font-face {
+  font-family: milik;
+  src: url("../fonts/Millik.c3f91cb.ttf");
+}
+@font-face {
+  font-family: moderat-bold;
+  src: url("../fonts/Moderat-Bold.aef2636.ttf");
+}
+@font-face {
+  font-family: mono-regular;
+  src: url("../fonts/IBMPlex-Mono-Regular.2ec3664.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 1349px;
+  height: 77px;
+  padding: 30px 20px 0px;
+}
+header .header-nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1092px;
+  height: 47px;
+  margin: 0px 108.5px;
+}
+header .header-nav-bar .nav-bar-left {
+  list-style: none;
+  width: 185px;
+}
+header .header-nav-bar .nav-bar-left a {
+  text-decoration: none;
+}
+header .header-nav-bar .nav-bar-left a svg {
+  height: 44.05px;
+  width: 185px;
+}
+header .header-nav-bar .nav-links {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 530.88px;
+  height: 38px;
+  font-size: 15px;
+  font-family: moderat-medium, sans-serif;
+  color: #262c55;
+  padding: 10px 12px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+header .header-nav-bar .nav-links li {
+  font-size: 15px;
+  font-family: moderat-medium, sans-serif;
+  color: #262c55;
+  padding: 10px 12px;
+  font-weight: 500;
+  position: relative;
+}
+header .header-nav-bar .nav-links li:hover ul {
+  display: block;
+  text-align: left;
+}
+header .header-nav-bar .nav-links li ul {
+  list-style: none;
+  display: none;
+  position: absolute;
+  background: #fff;
+  z-index: 5;
+  width: 330px;
+  height: 282px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 30px 20px rgba(220, 219, 219, 0.537);
+}
+header .header-nav-bar .nav-links li ul li .dropdown-item-1-icon {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: moderat-medium, sans-serif;
+  color: #262c55;
+  padding: 10px 12px;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+header .header-nav-bar .nav-links li ul li .dropdown-item-1-icon svg {
+  width: 42px;
+  height: 42px;
+}
+header .header-nav-bar .nav-links li ul li .dropdown-item-1-icon .dropdown-item-1-info {
+  width: 234px;
+  height: 41px;
+}
+header .header-nav-bar .nav-links li ul li .dropdown-item-1-icon .dropdown-item-1-info .dropdown-item-1-title {
+  font-family: moderat-bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #262c55;
+}
+header .header-nav-bar .nav-links li ul li .dropdown-item-1-icon .dropdown-item-1-info .dropdown-item-1-title:hover {
+  color: #00abab;
+}
+header .header-nav-bar .nav-links li ul li .dropdown-item-1-icon .dropdown-item-1-info .dropdown-item-1-detail {
+  font-family: moderat-regular;
+  font-size: 14px;
+  line-height: 17px;
+}
+header .header-nav-bar .nav-links .nav-link-item-nodrop:hover {
+  color: #00abab;
+}
+header .header-nav-bar .nav-bar-right {
+  list-style: none;
+}
+header .header-nav-bar .nav-bar-right li a {
+  width: 168.64px;
+  height: 47px;
+  text-decoration: none;
+  font: 14px moderat-light, sans-serif;
+  padding: 15px 50px;
+  background: #EEEEEE;
+  color: #000000;
+  border-radius: 16px;
+}
+header .header-nav-bar .nav-bar-right li a:hover {
+  background: #262c55;
+  color: #fff;
+}
+
+.endless-possibilities {
+  width: 1349px;
+  padding: 90px 20px 0px;
+}
+.endless-possibilities .endless-possi-info {
+  padding: 0px 108.5px;
+}
+.endless-possibilities .endless-possi-info h1 b {
+  font-family: milik;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 108px;
+  margin: 0px 0px 30px;
+}
+.endless-possibilities .endless-possi-info h1 b span {
+  color: #fb9129;
+}
+.endless-possibilities .endless-possi-info p {
+  font-family: moderat-light;
+  font-size: 22px;
+  line-height: 32px;
+  color: #000;
+  padding: 0px 0px 40px;
+}
+
+.about-partners {
+  display: grid;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.about-partners .column-1 a {
+  padding-left: 128.5px;
+  text-decoration: none;
+}
+.about-partners .column-1 a button {
+  font-size: 16px;
+  font-family: moderat-medium;
+  border-radius: 16px;
+  background: #0a0e27;
+  color: #fff;
+  padding: 21px 24px;
+  margin-bottom: 80px;
+}
+.about-partners .column-1 a .foot-city {
+  width: 749.91px;
+  height: 752px;
+}
+.about-partners .column-2 img {
+  width: 534.08px;
+  height: 680px;
+}
+.about-partners .column-2 p {
+  margin-top: 74px;
+  color: #1d1d1d;
+  font-family: moderat-light;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.sectionContainer .sectionUnified h1 {
+  font-family: "STIX-Two-Text", serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 90px;
+  margin: 30px 130px 30px;
+  color: rgb(5, 5, 5);
+}
+.sectionContainer .sectionUnified span {
+  color: #fb9129;
+}
+.sectionContainer .sectionPay {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.sectionContainer .sectionPay .sectionCheckout h1, .sectionContainer .sectionPay .acceptPayment h1, .sectionContainer .sectionPay .transferPayment h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  color: rgb(5, 5, 5);
+  margin: 110px 130px 30px;
+}
+.sectionContainer .sectionPay .sectionCheckout p, .sectionContainer .sectionPay .acceptPayment p, .sectionContainer .sectionPay .transferPayment p {
+  margin: 30px 130px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.8156862745);
+  line-height: 29px, 110px;
+}
+.sectionContainer .sectionPay .sectionCheckout h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  color: rgb(5, 5, 5);
+  margin: 110px 130px 30px;
+}
+.sectionContainer .sectionPay .sectionCheckout p {
+  margin: 30px 130px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.8156862745);
+  line-height: 29px, 110px;
+}
+.sectionContainer .sectionPay .sectionCheckout p button {
+  width: 48%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  width: 40%;
+  color: white;
+  border: none;
+  background-color: rgb(5, 5, 5);
+  height: 75px;
+  border-radius: 15px;
+  margin-top: 60px;
+  outline: none;
+}
+.sectionContainer .sectionPay .sectionImg {
+  width: 400px;
+  border-radius: 5px;
+}
+.sectionContainer .sectionPay .checkoutImg {
+  width: 400px;
+  box-shadow: 3px 4px 25px 5px rgba(158, 155, 155, 0.315);
+  border-radius: 40px;
+}
+.sectionContainer .sectionPay .sectionPayment .acceptPayment p button, .sectionContainer .sectionPay .sectionPayment .transferPayment p button {
+  width: 48%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  color: #fb9129;
+  border: none;
+  background-color: white;
+  height: 80px;
+}
+.sectionContainer .sectionPay .sectionPayment .acceptPayment p button img, .sectionContainer .sectionPay .sectionPayment .transferPayment p button img {
+  height: 35px;
+  position: relative;
+  top: 10px;
+}
+.sectionContainer .businessTools {
+  background-color: rgba(153, 142, 142, 0.0941176471);
+}
+.sectionContainer .businessTools h1 {
+  font-family: "STIX-Two-Text", serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 90px;
+  margin: 30px 130px 30px;
+  margin-top: 200px;
+  padding-top: 210px;
+}
+.sectionContainer .businessTools h1 span {
+  color: #35a169;
+}
+.sectionContainer .businessTools .businessContain .store {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.sectionContainer .businessTools .businessContain .store .storeImg {
+  width: 100%;
+  height: 780px;
+}
+.sectionContainer .businessTools .businessContain .store .storeImg img {
+  width: 100%;
+  height: 780px;
+}
+.sectionContainer .businessTools .businessContain .store .storeCont button {
+  width: 48%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  width: 28%;
+  color: white;
+  border: none;
+  background-color: rgb(5, 5, 5);
+  height: 75px;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 120px;
+  outline: none;
+}
+.sectionContainer .businessTools .businessContain .storeCont h2, .sectionContainer .businessTools .businessContain .begin h2, .sectionContainer .businessTools .businessContain .paymentLinks h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  color: rgb(5, 5, 5);
+  margin: 110px 130px 30px;
+}
+.sectionContainer .businessTools .businessContain .storeCont p, .sectionContainer .businessTools .businessContain .begin p, .sectionContainer .businessTools .businessContain .paymentLinks p {
+  margin: 30px 130px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.8156862745);
+  line-height: 29px, 110px;
+}
+.sectionContainer .businessTools .payment {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.sectionContainer .businessTools .payment .paymentImg {
+  width: 95%;
+  height: 870px;
+}
+.sectionContainer .businessTools .payment .paymentImg img {
+  width: 95%;
+  height: 870px;
+  margin-left: 5%;
+  position: relative;
+  bottom: 13%;
+}
+.sectionContainer .businessTools .payment div .begin button, .sectionContainer .businessTools .payment div .paymentLinks button {
+  margin-left: 13%;
+  margin-top: 5%;
+  width: 48%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  color: #fb9129;
+  width: 32%;
+  border: none;
+  background-color: rgba(153, 142, 142, 0);
+}
+.sectionContainer .businessTools .payment div .begin button img, .sectionContainer .businessTools .payment div .paymentLinks button img {
+  height: 35px;
+  position: relative;
+  top: 10px;
+}
+.sectionContainer .businessTools .toolsSec p {
+  margin: 30px 130px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 100px;
+  color: rgba(34, 34, 34, 0.8156862745);
+  line-height: 110px;
+  font-weight: 300;
+  opacity: 1;
+}
+.sectionContainer .businessTools .toolsSec button {
+  width: 48%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  width: 15%;
+  color: white;
+  border: none;
+  background-color: rgba(1, 5, 39, 0.8823529412);
+  height: 95px;
+  border-radius: 15px;
+  margin: 60px 120px;
+  outline: none;
+}
+.sectionContainer .virtualCards {
+  background-color: rgb(5, 5, 5);
+}
+.sectionContainer .virtualCards h1 {
+  font-family: "STIX-Two-Text", serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 90px;
+  margin: 30px 130px 30px;
+  text-align: center;
+  color: #fff;
+}
+.sectionContainer .virtualCards h1 span {
+  color: #6672c7;
+}
+.sectionContainer .virtualCards p {
+  margin: 30px 130px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.8156862745);
+  line-height: 36px;
+  text-align: center;
+  color: #fff;
+}
+.sectionContainer .virtualCards button {
+  width: 48%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  width: 15%;
+  color: white;
+  border: none;
+  background-color: rgba(1, 5, 39, 0.8823529412);
+  height: 95px;
+  border-radius: 15px;
+  margin: 60px 120px;
+  outline: none;
+}
+
+.trustees {
+  padding: 60px 20px;
+}
+.trustees .million {
+  padding-left: 128.5px;
+  font-family: moderat-regular;
+  font-size: 22px;
+  margin: 0px 0px 20px;
+  color: #1d1d1d;
+}
+.trustees .partner-icon {
+  padding-left: 128.5px;
+}
+.trustees .partner-icon img {
+  padding: 20px 40px 20px 0px;
+}
+
+.documented_API {
+  padding: 160px 128.5px;
+}
+.documented_API h1 {
+  font-size: 80px;
+  margin-top: 150px;
+  font-family: milik;
+  margin: 0px 0px 40px;
+  font-weight: 500;
+  line-height: 86px;
+  color: #1d1d1d;
+}
+.documented_API h1 span {
+  color: #eb7da7;
+}
+.documented_API p {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 50px;
+  color: #1d1d1d;
+  font-family: moderat-light;
+  margin: 0px 0px 40px;
+}
+.documented_API ul li {
+  font-family: moderat-light;
+  font-size: 18px;
+  color: #1d1d1d;
+  padding: 0px 0px 0px 34px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 34px;
+}
+.documented_API button {
+  margin-top: 36px;
+  color: #fff;
+  background: #262c55;
+  padding: 28px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.global_reach {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.global_reach .global_reach_text h1 {
+  margin-bottom: 50px;
+  font-size: 80px;
+  margin-top: 50px;
+  font-size: 80px;
+  font-family: milik;
+  font-weight: 500;
+  line-height: 86px;
+  color: #1d1d1d;
+}
+.global_reach .global_reach_text h1 span {
+  color: #6672c7;
+}
+.global_reach .global_reach_text .global_text h3 {
+  border-left: 2px solid black;
+  font-size: 20px;
+  font-family: moderat-bold;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+.global_reach .global_reach_text .global_text .currencies {
+  color: #0abab0;
+}
+.global_reach .global_reach_text .global_text p {
+  padding-left: 30px;
+  border-left: 0.3px dashed grey;
+  padding-bottom: 40px;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 22px;
+}
+.global_reach .global_reach_text .global_text .list_1 {
+  border-left: 0.5px dotted grey;
+  padding-left: 30px;
+  display: flex;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.global_reach .global_reach_text .global_text .list_1 ul li {
+  color: #1d1d1d;
+  list-style: none;
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 22px;
+}
+
+.create_financial_account {
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.9294117647);
+  border-radius: 8px;
+  padding: 50px 150px;
+  margin-bottom: 200px;
+  width: 700px;
+}
+.create_financial_account h1 {
+  color: #fff;
+  font-size: 60px;
+}
+.create_financial_account p {
+  color: #fff;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.create_financial_account button {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9294117647);
+  border: none;
+}
+
+footer {
+  max-width: 80%;
+  margin: 0 auto;
+}
+footer .footer-links {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding-bottom: 70px;
+  z-index: 3;
+}
+footer .footer-links .important_details ul li {
+  list-style: none;
+  padding-top: 20px;
+}
+footer .footer-links .important_details ul li a {
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 19px;
+}
+footer .footer-links .important_details ul li b {
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+  color: #1d1d1d;
+  font-family: moderat-bold;
+  font-weight: 500;
+}
+footer .trial .about-countries {
+  position: absolute;
+  left: 130px;
+  top: 9950px;
+  width: 50%;
+  display: flex;
+  z-index: 5;
+  gap: 50px;
+  padding: 0px 50px 40px 50px;
+  margin: 5px 5px -20px 5px;
+  border-radius: 8px;
+  box-shadow: 1px 10px 36px 15px rgba(0, 0, 0, 0.127);
+}
+footer .trial .about-countries ul li {
+  list-style: none;
+  padding-top: 30px;
+}
+footer .trial .about-countries ul li .country-button {
+  display: flex;
+}
+footer .trial .about-countries ul li .country-button .count-flag {
+  width: 26px;
+  height: 20px;
+  border-radius: 5px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+}
+footer .trial .about-countries ul li .country-button .country-name {
+  padding-top: 5px;
+}
+footer .trial .about-countries ul .cam .count-flag {
+  background-image: url("../images/cm.svg");
+}
+footer .trial .about-countries ul .ic .count-flag {
+  background-image: url("../images/ci.svg");
+}
+footer .trial .about-countries ul .mau .count-flag {
+  background-image: url("../images/mu.svg");
+}
+footer .trial .about-countries ul .rwa .count-flag {
+  background-image: url("../images/rw.svg");
+}
+footer .trial .about-countries ul .tan .count-flag {
+  background-image: url("../images/tz.svg");
+}
+footer .trial .about-countries ul .us .count-flag {
+  background-image: url("../images/us.svg");
+}
+footer .trial .about-countries ul .eg .count-flag {
+  background-image: url("../images/us.svg");
+}
+footer .trial .about-countries ul .ken .count-flag {
+  background-image: url("../images/ke.svg");
+}
+footer .trial .about-countries ul .nig .count-flag {
+  background-image: url("../images/ng.svg");
+}
+footer .trial .about-countries ul .sen .count-flag {
+  background-image: url("../images/sn.svg");
+}
+footer .trial .about-countries ul .uga .count-flag {
+  background-image: url("../images/ug.svg");
+}
+footer .trial .about-countries ul .zam .count-flag {
+  background-image: url("../images/zm.svg");
+}
+footer .trial .about-countries ul .gha .count-flag {
+  background-image: url("../images/gh.svg");
+}
+footer .trial .about-countries ul .mal .count-flag {
+  background-image: url("../images/mw.svg");
+}
+footer .trial .about-countries ul .eur .count-flag {
+  background-image: url("../images/eu.svg");
+}
+footer .trial .about-countries ul .sa .count-flag {
+  background-image: url("../images/za.svg");
+}
+footer .trial .about-countries ul .uk .count-flag {
+  background-image: url("../images/zm.svg");
+}
+footer hr {
+  z-index: 5;
+}
+footer .footer-lines .social-media-links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+footer .footer-lines .social-media-links .countries li {
+  list-style: none;
+}
+footer .footer-lines .social-media-links .countries li .country-button {
+  display: flex;
+}
+footer .footer-lines .social-media-links .countries li .country-button .count-flag {
+  width: 24px;
+  height: 23px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-image: url("../images/cm.svg");
+}
+footer .footer-lines .social-media-links .countries li .country-button .country-name {
+  padding-top: 5px;
+}
+footer .footer-lines .social-media-links .countries li .country-button:hover {
+  color: #00abab;
+}
+footer .footer-lines .social-media-links .links {
+  display: flex;
+  padding-bottom: 30px;
+}
+footer .footer-lines .social-media-links .links li {
+  list-style: none;
+  text-decoration: none;
+}
+footer .footer-lines .social-media-links .links li a {
+  padding-left: 30px;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 19px;
+}
+footer .footer-lines .social-media-links .links li a:hover {
+  color: #00abab;
+}
+footer .footer-lines .flutterwave-policies {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+footer .footer-lines .flutterwave-policies .flutterwavego-copyright {
+  color: black;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 19px;
+}
+footer .footer-lines .flutterwave-policies .links {
+  display: flex;
+}
+footer .footer-lines .flutterwave-policies .links li {
+  list-style: none;
+  text-decoration: none;
+}
+footer .footer-lines .flutterwave-policies .links li a {
+  padding-left: 30px;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 19px;
+}
+footer .footer-lines .flutterwave-policies .links li a:hover {
+  color: #00abab;
+}
+
+@media (max-width: 600px) {
+  header {
+    width: 1349px;
+    height: 77px;
+    padding: 30px 20px 0px;
+  }
+  header .header-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1092px;
+    height: 47px;
+    margin: 0px 108.5px;
+  }
+  header .header-nav-bar .nav-bar-left {
+    width: 185px;
+  }
+  header .header-nav-bar .nav-bar-left a svg {
+    height: 44.05px;
+    width: 185px;
+  }
+  header .header-nav-bar .nav-links {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

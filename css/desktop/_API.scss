@@ -1,0 +1,51 @@
+.documented_API {
+    padding: 160px 128.5px;
+
+
+    h1 {
+        font-size: 80px;
+        margin-top: 150px;
+        font-family: milik;
+        margin: 0px 0px 40px;
+        font-weight: 500;
+        line-height: 86px;
+        color: #1d1d1d;
+
+        span {
+            color: #eb7da7;
+        }
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 50px;
+        color: #1d1d1d;
+        font-family: moderat-light;
+        margin: 0px 0px 40px;
+    }
+
+    ul {
+
+        li {
+            font-family: moderat-light;
+            font-size: 18px;
+            color: #1d1d1d;
+            padding: 0px 0px 0px 34px;
+            font-weight: 300;
+            line-height: 26px;
+            margin-bottom: 34px;
+            
+        }
+    }
+
+    button {
+        margin-top: 36px;
+        color: #fff;
+        background: #262c55;
+        padding: 28px 32px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,35 @@
+.endless-possibilities{
+   width: $header-width;
+   
+   // height: $section-1-height;
+   padding: 90px 20px 0px;
+   // margin-top: 100px;
+   
+
+   .endless-possi-info{
+      
+    padding: $header-nav-bar-margin;
+    
+   h1{
+
+      b{
+      font-family: milik;
+      font-size: 100px;
+      font-weight: 500;
+      line-height: 108px;
+      margin: 0px 0px 30px;
+       
+      span{
+         color: $section-1-info-h4-span-color;
+      }
+      }
+   }
+   p{
+      font-family: moderat-light;
+      font-size: 22px;
+      line-height: 32px;
+      color: #000;
+      padding: 0px 0px 40px;
+   }
+   }
+}

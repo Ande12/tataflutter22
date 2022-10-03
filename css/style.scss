@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: moderat-light;
+    src: url("../fonts/Moderat-Light.716cf7f.ttf");
+}
+@font-face {
+    font-family: moderat-regular;
+    src: url("../fonts/Moderat-Regular.a2f5d8f.ttf");
+}
+@font-face {
+    font-family: moderat-medium;
+    src: url("../fonts/Moderat-Medium.9a1678a.ttf");
+}
+@font-face {
+    font-family: milik;
+    src: url("../fonts/Millik.c3f91cb.ttf");
+}
+@font-face {
+    font-family: moderat-bold;
+    src: url("../fonts/Moderat-Bold.aef2636.ttf");
+}
+@font-face {
+    font-family: mono-regular;
+    src: url("../fonts/IBMPlex-Mono-Regular.2ec3664.ttf");
+}
+
+@mixin textDecoration {
+    text-decoration: none;
+}
+@mixin listStyle {
+    list-style: none;
+}
+@mixin fontStyle {
+    font-size: $header-nav-line-font-size;
+    font-family: $header-nav-line-font-family;
+    color: $header-nav-line-color;
+    padding: $header-nav-line-padding;
+    font-weight: 500;
+}
+
+@import './setup';
+@import './desktop/mixin';
+
+// desktop-size
+@import './desktop/header';
+@import './desktop/endless';
+@import './desktop/abt-partners';
+// bale
+
+@import './desktop/section';
+
+
+// tracy
+@import './desktop/trustees';
+@import './desktop/API';
+@import './desktop/global';
+@import './desktop/footer';
+
+// mobile-size
+
+@media (max-width: 600px) {
+    @import './mobile/header';
+}
+
