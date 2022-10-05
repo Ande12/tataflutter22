@@ -11,3 +11,12 @@ countButton.addEventListener('click', function(){
         countriesDisplay.style.display = 'none';
     }
 })
+
+// javascript for the footer accordion
+
+var footerHeadings  = document.querySelectorAll(".footer_heading");
+ footerHeadings.forEach(footerHeading => {
+    footerHeading.addEventListener("click", state => {
+        footerHeading.classList.toggle("active");
+    });
+ });

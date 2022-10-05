@@ -9,6 +9,16 @@ footer {
         z-index: 3;
 
         .important_details {
+            .footer_heading{
+                h2{
+                    color: black;
+                        font-size: 18px;
+                        line-height: 20px;
+                        color: #1d1d1d;
+                        font-family: moderat-bold;
+                        font-weight: 500;
+                }
+            }
             ul {
                 li {
                     list-style: none;
@@ -23,14 +33,14 @@ footer {
                         line-height: 19px;
                     }
 
-                    b {
-                        color: black;
-                        font-size: 18px;
-                        line-height: 20px;
-                        color: #1d1d1d;
-                        font-family: moderat-bold;
-                        font-weight: 500;
-                    }
+                    // b {
+                    //     color: black;
+                    //     font-size: 18px;
+                    //     line-height: 20px;
+                    //     color: #1d1d1d;
+                    //     font-family: moderat-bold;
+                    //     font-weight: 500;
+                    // }
                 }
             }
         }
