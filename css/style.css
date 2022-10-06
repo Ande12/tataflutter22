@@ -746,15 +746,102 @@ footer .footer-links .important_details ul li a {
   line-height: 19px;
 }
 
-footer .trial .about-countries {
-  position: absolute;
-  left: 130px;
-  top: 9950px;
-  width: 50%;
+footer .countries_medialinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 5;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  padding: 30px 0px 30px 0px;
+}
+
+footer .countries_medialinks .medialinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+footer .countries_medialinks .medialinks li a {
+  padding-left: 30px;
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 19px;
+}
+
+footer .countries_medialinks .medialinks li a:hover {
+  color: #00abab;
+}
+
+footer .countries_medialinks .country-button {
+  width: 100%;
+}
+
+footer .countries_medialinks .country-button .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .countries_medialinks .country-button .button:hover {
+  color: #00abab;
+}
+
+footer .countries_medialinks .country-button .button .camer {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+footer .countries_medialinks .country-button .button .camer svg {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+footer .countries_medialinks .country-button .button .country-name {
+  margin-left: 10px;
+}
+
+footer .countries_medialinks .country-button .button .country-name::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+footer .countries_medialinks .country-button .count-flag .trial {
+  position: relative;
+}
+
+footer .countries_medialinks .country-button .count-flag .trial .about-countries {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  background-color: white;
+  left: 0px;
+  bottom: 100px;
+  width: 100%;
   gap: 50px;
   padding: 0px 50px 40px 50px;
   margin: 5px 5px -20px 5px;
@@ -763,18 +850,22 @@ footer .trial .about-countries {
           box-shadow: 1px 10px 36px 15px rgba(0, 0, 0, 0.127);
 }
 
-footer .trial .about-countries ul li {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul {
+  background-color: white;
+}
+
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul li {
   list-style: none;
   padding-top: 30px;
 }
 
-footer .trial .about-countries ul li .country-button {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul li .country-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-footer .trial .about-countries ul li .country-button .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul li .country-button .count-flag {
   width: 26px;
   height: 20px;
   border-radius: 5px;
@@ -782,131 +873,116 @@ footer .trial .about-countries ul li .country-button .count-flag {
   background-repeat: no-repeat;
 }
 
-footer .trial .about-countries ul li .country-button .country-name {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul li .country-button .country-name {
   padding-top: 5px;
 }
 
-footer .trial .about-countries ul .cam .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .cam .count-flag {
   background-image: url("../images/cm.svg");
 }
 
-footer .trial .about-countries ul .ic .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .ic .count-flag {
   background-image: url("../images/ci.svg");
 }
 
-footer .trial .about-countries ul .mau .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .mau .count-flag {
   background-image: url("../images/mu.svg");
 }
 
-footer .trial .about-countries ul .rwa .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .rwa .count-flag {
   background-image: url("../images/rw.svg");
 }
 
-footer .trial .about-countries ul .tan .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .tan .count-flag {
   background-image: url("../images/tz.svg");
 }
 
-footer .trial .about-countries ul .us .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .us .count-flag {
   background-image: url("../images/us.svg");
 }
 
-footer .trial .about-countries ul .eg .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .eg .count-flag {
   background-image: url("../images/us.svg");
 }
 
-footer .trial .about-countries ul .ken .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .ken .count-flag {
   background-image: url("../images/ke.svg");
 }
 
-footer .trial .about-countries ul .nig .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .nig .count-flag {
   background-image: url("../images/ng.svg");
 }
 
-footer .trial .about-countries ul .sen .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .sen .count-flag {
   background-image: url("../images/sn.svg");
 }
 
-footer .trial .about-countries ul .uga .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .uga .count-flag {
   background-image: url("../images/ug.svg");
 }
 
-footer .trial .about-countries ul .zam .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .zam .count-flag {
   background-image: url("../images/zm.svg");
 }
 
-footer .trial .about-countries ul .gha .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .gha .count-flag {
   background-image: url("../images/gh.svg");
 }
 
-footer .trial .about-countries ul .mal .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .mal .count-flag {
   background-image: url("../images/mw.svg");
 }
 
-footer .trial .about-countries ul .eur .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .eur .count-flag {
   background-image: url("../images/eu.svg");
 }
 
-footer .trial .about-countries ul .sa .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .sa .count-flag {
   background-image: url("../images/za.svg");
 }
 
-footer .trial .about-countries ul .uk .count-flag {
+footer .countries_medialinks .country-button .count-flag .trial .about-countries ul .uk .count-flag {
   background-image: url("../images/zm.svg");
 }
 
-footer hr {
-  z-index: 5;
-}
-
-footer .footer-lines .social-media-links {
+footer .copyright_policy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 25px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-footer .footer-lines .social-media-links .countries li {
-  list-style: none;
-}
-
-footer .footer-lines .social-media-links .countries li .country-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer .footer-lines .social-media-links .countries li .country-button .count-flag {
-  width: 24px;
-  height: 23px;
-  border-radius: 50%;
-  margin-right: 8px;
-  background-image: url("../images/cm.svg");
-}
-
-footer .footer-lines .social-media-links .countries li .country-button .country-name {
-  padding-top: 5px;
-}
-
-footer .footer-lines .social-media-links .countries li .country-button:hover {
-  color: #00abab;
-}
-
-footer .footer-lines .social-media-links .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 30px;
-}
-
-footer .footer-lines .social-media-links .links li {
-  list-style: none;
+footer .copyright_policy p {
+  width: 20%;
+  color: black;
+  font-weight: 300;
   text-decoration: none;
+  font-size: 16px;
+  font-family: moderat-light;
+  line-height: 19px;
 }
 
-footer .footer-lines .social-media-links .links li a {
+footer .copyright_policy ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .copyright_policy ul li a {
   padding-left: 30px;
   color: black;
   font-weight: 300;
@@ -916,51 +992,7 @@ footer .footer-lines .social-media-links .links li a {
   line-height: 19px;
 }
 
-footer .footer-lines .social-media-links .links li a:hover {
-  color: #00abab;
-}
-
-footer .footer-lines .flutterwave-policies {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-footer .footer-lines .flutterwave-policies .flutterwavego-copyright {
-  color: black;
-  font-weight: 300;
-  font-size: 16px;
-  font-family: moderat-light;
-  line-height: 19px;
-}
-
-footer .footer-lines .flutterwave-policies .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-footer .footer-lines .flutterwave-policies .links li {
-  list-style: none;
-  text-decoration: none;
-}
-
-footer .footer-lines .flutterwave-policies .links li a {
-  padding-left: 30px;
-  color: black;
-  font-weight: 300;
-  text-decoration: none;
-  font-size: 16px;
-  font-family: moderat-light;
-  line-height: 19px;
-}
-
-footer .footer-lines .flutterwave-policies .links li a:hover {
+footer .copyright_policy ul li a:hover {
   color: #00abab;
 }
 
