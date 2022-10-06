@@ -954,11 +954,13 @@ footer .copyright_policy ul li a:hover {
     text-decoration: none;
   }
   .about-partners .column-1 .foot-city {
+    margin-left: 3%;
+    margin-right: 3%;
     padding: -40px 0px 0px 0px;
     background-image: url("/images/foot-city.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 94%;
     margin-top: 50px;
     height: 400px;
     position: relative;
