@@ -223,6 +223,9 @@ header .header-nav-bar .burger {
   font-weight: bold;
   font-family: moderat-light;
 }
+.about-partners .column-1 p {
+  display: none;
+}
 .about-partners .column-2 .famasi {
   background-image: url("/images/Famasi-3.png");
   background-size: cover;
@@ -942,74 +945,112 @@ footer .copyright_policy ul li a:hover {
   }
   .about-partners .column-1 button {
     margin-left: 30px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: moderat-medium;
     border-radius: 16px;
     background: #0a0e27;
     color: #fff;
-    padding: 21px 24px;
+    padding: 15px 18px;
     margin-bottom: 0px;
   }
   .about-partners .column-1 button a {
     text-decoration: none;
   }
   .about-partners .column-1 .foot-city {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: -40px 0px 0px 0px;
     background-image: url("/images/foot-city.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 94%;
-    margin-top: 50px;
-    height: 400px;
+    max-width: 90%;
+    margin-top: 5%;
+    height: 350px;
+    margin-bottom: 0px;
     position: relative;
   }
   .about-partners .column-1 .foot-city .foot-city-content {
     width: 100%;
     height: 100%;
-    height: 400px;
   }
   .about-partners .column-1 .foot-city .foot-city-content span {
     position: absolute;
     right: 30px;
     font-size: 25px;
-    top: 80%;
+    top: 75%;
     color: #fff;
     font-weight: bold;
     font-family: moderat-light;
+  }
+  .about-partners .column-1 p {
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    max-width: 95%;
+    color: #1d1d1d;
+    font-family: moderat-light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-left: 5%;
   }
   .about-partners .column-2 .famasi {
     background-image: url("/images/Famasi-3.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 534.08px;
-    height: 600px;
+    max-width: 90%;
+    height: 350px;
     position: relative;
-    background-position: 50% 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
   }
   .about-partners .column-2 .famasi .famasi-content {
-    width: 534.08px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     position: relative;
   }
   .about-partners .column-2 .famasi .famasi-content span {
-    top: 90%;
+    top: 83%;
     position: absolute;
     left: 30px;
-    font-size: 25px;
+    font-size: 23px;
     color: #fff;
     font-weight: bold;
     font-family: moderat-light;
   }
   .about-partners .column-2 p {
-    margin-top: 74px;
-    width: 68%;
-    color: #1d1d1d;
-    font-family: moderat-light;
+    display: none;
+  }
+  .trustees {
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 10% 0;
+  }
+  .trustees .million {
+    padding-left: 0px;
+    font-family: moderat-regular;
     font-size: 20px;
-    font-weight: 300;
-    line-height: 32px;
+    margin: 0px 0px 20px;
+    color: #1d1d1d;
+  }
+  .trustees .partner-icon {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+  .trustees .partner-icon img {
+    width: 17%;
+    padding-right: 6%;
+  }
+  .trustees .partner-icon .mtn {
+    width: 18%;
+  }
+  .trustees .partner-icon .wise {
+    width: 18%;
+  }
+  .trustees .partner-icon .chipper, .trustees .partner-icon .piggyvest, .trustees .partner-icon .microsoft {
+    width: 27%;
+    height: 10%;
   }
 }
 @media (max-width: 900px) {
