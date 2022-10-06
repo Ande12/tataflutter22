@@ -714,7 +714,7 @@ footer {
   margin: 0 auto;
 }
 
-footer .footer-links {
+footer .footer-links .footer_links_desktop, footer .footer-links .footer_links_mobile {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto;
@@ -723,7 +723,7 @@ footer .footer-links {
   z-index: 3;
 }
 
-footer .footer-links .important_details .footer_heading h2 {
+footer .footer-links .footer_links_desktop .important_details .footer_heading h2, footer .footer-links .footer_links_mobile .important_details .footer_heading h2 {
   color: black;
   font-size: 18px;
   line-height: 20px;
@@ -732,18 +732,22 @@ footer .footer-links .important_details .footer_heading h2 {
   font-weight: 500;
 }
 
-footer .footer-links .important_details ul li {
+footer .footer-links .footer_links_desktop .important_details ul li, footer .footer-links .footer_links_mobile .important_details ul li {
   list-style: none;
   padding-top: 20px;
 }
 
-footer .footer-links .important_details ul li a {
+footer .footer-links .footer_links_desktop .important_details ul li a, footer .footer-links .footer_links_mobile .important_details ul li a {
   color: black;
   font-weight: 300;
   text-decoration: none;
   font-size: 16px;
   font-family: moderat-light;
   line-height: 19px;
+}
+
+footer .footer-links .footer_links_mobile {
+  display: none;
 }
 
 footer .countries_medialinks {
@@ -778,11 +782,15 @@ footer .countries_medialinks .medialinks li a {
   text-decoration: none;
   font-size: 16px;
   font-family: moderat-light;
-  line-height: 19px;
+  line-height: 1.5;
 }
 
 footer .countries_medialinks .medialinks li a:hover {
   color: #00abab;
+}
+
+footer .countries_medialinks .important_details {
+  display: none;
 }
 
 footer .countries_medialinks .country-button {
@@ -1038,6 +1046,12 @@ footer .copyright_policy ul li a:hover {
     width: 100%;
     margin-top: -120px;
   }
+  footer .footer-links .footer_links_desktop {
+    display: none;
+  }
+  footer .footer-links .footer_links_mobile {
+    display: block;
+  }
   footer .footer-links .important_details {
     border-top: 1px solid whitesmoke;
     border-bottom: 1px solid whitesmoke;
@@ -1047,6 +1061,21 @@ footer .copyright_policy ul li a:hover {
   }
   footer .footer-links .important_details ul {
     display: none;
+    text-decoration: none;
+  }
+  footer .footer-links .important_details ul li {
+    padding: 10px 0px 10px 0px;
+  }
+  footer .footer-links .important_details ul li a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: moderat-light;
+    line-height: 1.5;
+  }
+  footer .footer-links .important_details ul li a:hover {
+    color: #00abab;
   }
   footer .footer-links .important_details .footer_heading {
     display: -webkit-box;
@@ -1071,6 +1100,72 @@ footer .copyright_policy ul li a:hover {
   }
   footer .footer-links .important_details .footer_heading.active + ul {
     display: block;
+  }
+  footer .countries_medialinks {
+    display: block;
+  }
+  footer .countries_medialinks .medialinks {
+    display: none;
+  }
+  footer .countries_medialinks .important_details {
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 30px 0px 30px 0px;
+  }
+  footer .countries_medialinks .important_details .footer_heading h2 {
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1d1d1d;
+    font-family: moderat-bold;
+    font-weight: 500;
+  }
+  footer .countries_medialinks .important_details ul {
+    display: none;
+    list-style-type: none;
+  }
+  footer .countries_medialinks .important_details ul li {
+    padding: 10px 0px 10px 0px;
+  }
+  footer .countries_medialinks .important_details ul li a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: moderat-light;
+    line-height: 1.5;
+  }
+  footer .countries_medialinks .important_details ul li a:hover {
+    color: #00abab;
+  }
+  footer .countries_medialinks .important_details .footer_heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  footer .countries_medialinks .important_details .footer_heading::after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    right: 3px;
+  }
+  footer .countries_medialinks .important_details .footer_heading.active::after {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  footer .countries_medialinks .important_details .footer_heading.active + ul {
+    display: block;
+  }
+  footer .copyright_policy .policy_links {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

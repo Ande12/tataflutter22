@@ -3,47 +3,57 @@ footer {
     margin: 0 auto;
 
     .footer-links {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        padding-bottom: 70px;
-        z-index: 3;
-
-        .important_details {
-            .footer_heading{
-                h2{
-                    color: black;
-                        font-size: 18px;
-                        line-height: 20px;
-                        color: #1d1d1d;
-                        font-family: moderat-bold;
-                        font-weight: 500;
-                }
-            }
-            ul {
-                li {
-                    list-style: none;
-                    padding-top: 20px;
-
-                    a {
+        .footer_links_desktop, .footer_links_mobile{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            padding-bottom: 70px;
+            z-index: 3;
+            .important_details {
+                .footer_heading{
+                    h2{
                         color: black;
-                        font-weight: 300;
-                        text-decoration: none;
-                        font-size: 16px;
-                        font-family: moderat-light;
-                        line-height: 19px;
+                            font-size: 18px;
+                            line-height: 20px;
+                            color: #1d1d1d;
+                            font-family: moderat-bold;
+                            font-weight: 500;
                     }
-
-                    // b {
-                    //     color: black;
-                    //     font-size: 18px;
-                    //     line-height: 20px;
-                    //     color: #1d1d1d;
-                    //     font-family: moderat-bold;
-                    //     font-weight: 500;
-                    // }
+                }
+                ul {
+                    li {
+                        list-style: none;
+                        padding-top: 20px;
+    
+                        a {
+                            color: black;
+                            font-weight: 300;
+                            text-decoration: none;
+                            font-size: 16px;
+                            font-family: moderat-light;
+                            line-height: 19px;
+                        }
+    
+                        // b {
+                        //     color: black;
+                        //     font-size: 18px;
+                        //     line-height: 20px;
+                        //     color: #1d1d1d;
+                        //     font-family: moderat-bold;
+                        //     font-weight: 500;
+                        // }
+                    }
                 }
             }
         }
+        .footer_links_mobile{
+            display: none;
+        }
+        // display: grid;
+        // grid-template-columns: auto auto auto auto auto;
+        // padding-bottom: 70px;
+        // z-index: 3;
+
+        
     }
 
     .countries_medialinks{
@@ -67,13 +77,16 @@ footer {
                     text-decoration: none;
                     font-size: 16px;
                     font-family: moderat-light;
-                    line-height: 19px;
+                    line-height: 1.5;
 
                     &:hover {
                         color: $header-nav-line-hover-color;
                     }
                 }
             }
+        }
+        .important_details{
+            display: none;
         }
         .country-button{
             width: 100%;
