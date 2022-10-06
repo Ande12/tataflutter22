@@ -954,13 +954,12 @@ footer .copyright_policy ul li a:hover {
     text-decoration: none;
   }
   .about-partners .column-1 .foot-city {
+    padding: -40px 0px 0px 0px;
     background-image: url("/images/foot-city.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    margin-top: -182px;
-    height: 700px;
-    padding-bottom: 224px;
+    height: 400px;
   }
   .about-partners .column-1 .foot-city .foot-city-content {
     width: 100%;
@@ -1070,10 +1069,8 @@ footer .copyright_policy ul li a:hover {
     width: 100%;
   }
   footer .footer-links .country-button .count-flag .trial .about-countries {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
   }
   footer .countries_medialinks {
     display: block;
@@ -1144,5 +1141,4 @@ footer .copyright_policy ul li a:hover {
     width: 100%;
     margin-top: -40px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
