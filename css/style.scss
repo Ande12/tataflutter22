@@ -46,10 +46,7 @@
 @import './desktop/endless';
 @import './desktop/abt-partners';
 // bale
-
 @import './desktop/section';
-
-
 // tracy
 @import './desktop/trustees';
 @import './desktop/API';
@@ -60,6 +57,8 @@
 
 @media (max-width: 600px) {
     @import './mobile/header';
+    @import './mobile/endless';
+    @import './mobile/abt-partners';
 }
 @import './mobile/footer';
 

@@ -1,17 +1,10 @@
 .endless-possibilities{
    width: $header-width;
-   
-   // height: $section-1-height;
    padding: 90px 20px 0px;
-   // margin-top: 100px;
-   
-
    .endless-possi-info{
-      
     padding: $header-nav-bar-margin;
-    
    h1{
-
+      width: 80%;
       b{
       font-family: milik;
       font-size: 100px;
@@ -27,9 +20,10 @@
    p{
       font-family: moderat-light;
       font-size: 22px;
-      line-height: 32px;
+      line-height: 1.5;
       color: #000;
-      padding: 0px 0px 40px;
+      padding: 30px 0px 50px;
+      width: 55%;
    }
    }
 }
