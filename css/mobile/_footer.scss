@@ -67,9 +67,26 @@
                     }
                 }
             }
+
+            //style to display country names vertically (block)
+            .country-button{
+                width: 100%;
+
+                .count-flag{
+                    .trial{
+                        .about-countries{
+                            display: grid;
+                            grid-template-columns: auto;
+                        }
+                    }
+                }
+            }
         }
         .countries_medialinks{
             display: block;
+            border: none;
+            margin-top: -80px;
+            margin: -80px 0px -30px 0px;
             .medialinks{
                 display: none;
             }
@@ -78,6 +95,7 @@
                 border-bottom:1px solid whitesmoke;
                 width: 95%;
                 margin-left: 2.5%;
+                display: block;
                 padding: 30px 0px 30px 0px;
                 .footer_heading{
                     h2{
@@ -141,6 +159,10 @@
         .copyright_policy{
             .policy_links{
                 display: none;
+            }
+            p{
+                width: 100%;
+                margin-top: -40px;
             }
         }
     }
