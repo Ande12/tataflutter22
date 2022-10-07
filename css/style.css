@@ -383,28 +383,37 @@ header .header-nav-bar .burger {
   line-height: 22px;
 }
 .global_reach .create_financial_account {
-  margin-top: 40px;
-  background-color: rgba(0, 0, 0, 0.9294117647);
-  border-radius: 8px;
+  margin-top: 18%;
+  background-color: rgba(0, 0, 0, 0.8901960784);
+  border-radius: 20px;
   padding: 50px 150px;
   margin-bottom: 200px;
-  width: 700px;
+  width: 100%;
+  box-shadow: 2px 20px 40px rgba(128, 128, 128, 0.849);
 }
 .global_reach .create_financial_account h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
+  padding-top: 30px;
+  font-family: milik;
 }
 .global_reach .create_financial_account p {
   color: #fff;
-  margin-top: 50px;
-  font-size: 20px;
+  margin-top: 30px;
+  font-weight: 300;
+  font-family: moderat-light;
+  font-size: 22px;
   margin-bottom: 100px;
+  line-height: 1.5;
+  width: 90%;
 }
-.global_reach .create_financial_account button {
-  font-size: 20px;
+.global_reach .create_financial_account div {
+  font-size: 16px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.9294117647);
   border: none;
+  font-weight: 500;
+  font-family: moderat-bold;
+  padding-bottom: 30px;
 }
 
 footer {

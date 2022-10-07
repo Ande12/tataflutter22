@@ -63,28 +63,37 @@
 
 
     .create_financial_account{
-    margin-top: 40px;
-    background-color: #000000ed;
-    border-radius: 8px;
+    margin-top: 18%;
+    background-color: #000000e3;
+    border-radius: 20px;
     padding: 50px 150px;
     margin-bottom: 200px;
-    width: 700px;
+    width: 100%;
+    box-shadow: 2px 20px 40px rgba(128, 128, 128, 0.849);
 
     h1{
         color: #fff;
-        font-size: 60px;
+        font-size: 50px;
+        padding-top: 30px;
+        font-family: milik;
     }
     p{
         color: #fff;
-        margin-top: 50px;
-        font-size: 20px;
+        margin-top: 30px;
+        font-weight: 300;
+        font-family: moderat-light;
+        font-size: 22px;
         margin-bottom: 100px;
+        line-height: 1.5;
+        width: 90%;
     }
-    button{
-        font-size: 20px;
+    div{
+        font-size: 16px;
         color:white;
-        background-color: #000000ed;
         border: none;
+        font-weight:500;
+        font-family: moderat-bold;
+        padding-bottom: 30px;
     }
 }
 }
