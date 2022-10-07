@@ -1,19 +1,20 @@
 .global_reach{
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 90%;
+    margin-left: 5%;
 
     .going-global{
         display: flex;
         // .global-anim{}
         .global_reach_text{
             h1{
-                margin-bottom: 100px;
-                font-size: 80px;
+                margin-bottom: 8%;
+                font-size: 35px;
                 margin-top: 150px;
                 font-family: milik;
                 font-weight: 500;
-                line-height: 86px;
+                line-height: 1.5;
                 color: #1d1d1d;
+                width: 100%;
     
                 span{
                     color: #6672c7;
@@ -33,7 +34,7 @@
                     color: #0abab0;
                 }
                 p{
-                    padding: 5px 0px 40px 30px;
+                    padding: 5px 0px 70px 30px;
                     border-left: 0.3px dashed grey;
                     font-size: 16px;
                     font-family: moderat-light;
