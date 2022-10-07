@@ -1,19 +1,20 @@
 .global_reach{
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 90%;
+    margin-left: 5%;
 
     .going-global{
         display: flex;
         // .global-anim{}
         .global_reach_text{
             h1{
-                margin-bottom: 100px;
-                font-size: 80px;
+                margin-bottom: 8%;
+                font-size: 35px;
                 margin-top: 150px;
                 font-family: milik;
                 font-weight: 500;
-                line-height: 86px;
+                line-height: 1.5;
                 color: #1d1d1d;
+                width: 100%;
     
                 span{
                     color: #6672c7;
@@ -33,7 +34,7 @@
                     color: #0abab0;
                 }
                 p{
-                    padding: 5px 0px 40px 30px;
+                    padding: 5px 0px 70px 30px;
                     border-left: 0.3px dashed grey;
                     font-size: 16px;
                     font-family: moderat-light;
@@ -63,37 +64,28 @@
 
 
     .create_financial_account{
-    margin-top: 18%;
-    background-color: #000000e3;
-    border-radius: 20px;
+    margin-top: 40px;
+    background-color: #000000ed;
+    border-radius: 8px;
     padding: 50px 150px;
     margin-bottom: 200px;
-    width: 100%;
-    box-shadow: 2px 20px 40px rgba(128, 128, 128, 0.849);
+    width: 700px;
 
     h1{
         color: #fff;
-        font-size: 50px;
-        padding-top: 30px;
-        font-family: milik;
+        font-size: 60px;
     }
     p{
         color: #fff;
-        margin-top: 30px;
-        font-weight: 300;
-        font-family: moderat-light;
-        font-size: 22px;
+        margin-top: 50px;
+        font-size: 20px;
         margin-bottom: 100px;
-        line-height: 1.5;
-        width: 90%;
     }
-    div{
-        font-size: 16px;
+    button{
+        font-size: 20px;
         color:white;
+        background-color: #000000ed;
         border: none;
-        font-weight:500;
-        font-family: moderat-bold;
-        padding-bottom: 30px;
     }
 }
 }
