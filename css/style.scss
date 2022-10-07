@@ -63,5 +63,6 @@
     @import './mobile/API';
     @import './mobile/global';
 }
-@import './mobile/footer'; //this file was imported by billy
+@import './mobile/footer'; //this file was imported by Billy
+@import './mobile/mobile_nav'; //max-width:900px this file was imported by Billy for the responsive navigation on mobile and tablet
 
