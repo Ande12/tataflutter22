@@ -59,7 +59,6 @@ header .header-nav-bar {
 header .header-nav-bar .nav-bar-left {
   list-style: none;
   width: 185px;
-  z-index: 999;
 }
 
 header .header-nav-bar .nav-bar-left a {
@@ -193,8 +192,9 @@ header .header-nav-bar button a:hover {
   color: #fff;
 }
 
-header .header-nav-bar .burger {
+header .header-nav-bar .burgers {
   display: none;
+  visibility: hidden;
 }
 
 .mobile_nav {
@@ -826,6 +826,7 @@ footer .copyright_policy ul li a:hover {
   }
   header .header-nav-bar .burgers {
     display: block;
+    cursor: pointer;
     z-index: 999;
   }
   header .header-nav-bar .burgers.active .firstbar {
@@ -866,7 +867,10 @@ footer .copyright_policy ul li a:hover {
     top: 0;
     width: 100%;
     z-index: 98;
+    height: calc(100% - 30px);
     background-color: white;
+    padding-top: 130px;
+    overflow-y: scroll;
   }
   .mobile_nav.active {
     left: 0%;
