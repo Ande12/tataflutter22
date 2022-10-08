@@ -194,11 +194,10 @@ header .header-nav-bar button a:hover {
 
 header .header-nav-bar .burgers {
   display: none;
-  visibility: hidden;
 }
 
 .mobile_nav {
-  display: block;
+  display: none;
 }
 
 .endless-possibilities {
@@ -862,14 +861,16 @@ footer .copyright_policy ul li a:hover {
     transition: 0.4s;
   }
   .mobile_nav {
+    display: block;
     position: fixed;
     left: 100%;
     top: 0;
     width: 100%;
     z-index: 98;
-    height: calc(100% - 30px);
+    height: calc(100% - 0px);
     background-color: white;
     padding-top: 130px;
+    padding-bottom: 30px;
     overflow-y: scroll;
   }
   .mobile_nav.active {

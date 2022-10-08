@@ -45,15 +45,17 @@
         }
     }
     .mobile_nav{
+        display: block;
         position: fixed;
         left: 100%;
         top: 0;
         width: 100%;
         z-index:98;
-        height: calc(100% - 30px);
+        height: calc(100% - 0px);
         // min-height: 150vh;
         background-color: white;
         padding-top: 130px;
+        padding-bottom: 30px;
         overflow-y: scroll;
         &.active{
             left:0%;
