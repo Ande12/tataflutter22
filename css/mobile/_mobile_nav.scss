@@ -1,5 +1,73 @@
 @media (max-width:900px){
     .mobile_nav{
         display: block;
+        ul{
+            h3{
+                font-size: 12px;
+                font-family:$myFontFamily;
+                font-weight: 400;
+                color:#686868;
+                padding: 10px 0px 0px 20px;
+            }
+            .middle_list{
+               
+                border-bottom: 1px solid #262c55a2;
+                border-top: 1px solid #262c55a2;
+                border-style: dashed;
+                border-right: none;
+                border-left: none;
+            }
+            li.mobile_list, .middle_list{
+                ul{
+                    margin: 20px 0px 20px 0px;
+                    list-style-type: none;
+                    li{
+                        display: flex; 
+                        gap: 20px;
+                        margin: 10px 0px 20px 20px;
+                        svg{
+                            height: 40px;
+                            width: 40px;
+                        }
+                        h2{
+                            a{
+                                text-decoration: none;
+                                color:#262c55;
+                                // line-height: 1.6;
+                                font-family:$myFontFamily;
+                                font-size: 14px;
+                                font-weight: 400;
+                                &:hover span{
+                                    color:$header-nav-line-hover-color;
+
+                                }
+                                span{
+                                    font-size: 13px;
+                                    font-family:$myFontFamily;
+                                    font-weight: 600;
+                                    color:#262c55;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        button.signin{
+          width:95%;
+          margin-left:2.5%;
+            background-color: #262c55;
+            padding: 20px;
+            outline: none;
+            border:none;
+            border-radius: 10px;
+            a{
+                font-size: 14px;
+                font-family: serif;
+                font-weight: 400;
+                color:white;
+                text-decoration: none;
+            }
+        }
     }
 }
