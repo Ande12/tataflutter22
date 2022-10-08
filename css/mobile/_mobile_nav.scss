@@ -1,7 +1,37 @@
-@media (max-width:900px){
+
+    header{
+        width: 98%;
+        margin-left: 1%;
+        .header-nav-bar{
+            width: 98%;
+        // height: 21px;
+            margin-left: 1%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            nav, .nav-bar-right{
+                display: none;
+            }
+            .burgers{
+                display: block;
+                p{
+                    border: 1px solid $header-nav-line-color;
+                    border-radius: 3px;
+                    width: 28px;
+                    margin-bottom: 6px;
+                    box-shadow: 2px 2px 12px 3px rgba(128, 128, 128, 0.124);
+    
+                }
+            }
+        }
+    }
     .mobile_nav{
-        display: block;
+        position: fixed;
+        left: 100%;
+        top: 0;
+        width: 100%;
         ul{
+            display: block;
             h3{
                 font-size: 12px;
                 font-family:$myFontFamily;
@@ -70,4 +100,3 @@
             }
         }
     }
-}
