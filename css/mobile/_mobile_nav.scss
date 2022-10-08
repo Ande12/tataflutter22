@@ -14,13 +14,33 @@
             }
             .burgers{
                 display: block;
-                p{
+                // &.active{
+
+                // }
+                &.active .firstbar{
+                    transform: rotate(45deg) translate(0px, 12px);
+                    transition: 0.4s;
+                }
+                &.active .secondbar{
+                    transition: 0.4s;
+                    transform: rotate(-45deg) translate(-7px, -5px);
+                }
+
+                .firstbar, .secondbar{
                     border: 1px solid $header-nav-line-color;
                     border-radius: 3px;
                     width: 28px;
                     margin-bottom: 6px;
                     box-shadow: 2px 2px 12px 3px rgba(128, 128, 128, 0.124);
     
+                }
+                .firstbar{
+                    transition: 0.4s;
+                    transform: rotate(0deg) translate(0px, 3px);
+                }
+                .secondbar{
+                    transform: rotate(0deg) translate(0px, 4px);
+                    transition: 0.4s;
                 }
             }
         }
@@ -30,6 +50,13 @@
         left: 100%;
         top: 0;
         width: 100%;
+        z-index:98;
+        min-height: 150vh;
+        background-color: rgba(255, 0, 0, 0.151);
+        &.active{
+            right:100%;
+            transition: 0.1s;
+        }
         ul{
             display: block;
             h3{
@@ -100,3 +127,6 @@
             }
         }
     }
+
+    //code to toggle the menu
+

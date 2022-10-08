@@ -826,7 +826,19 @@ footer .copyright_policy ul li a:hover {
   header .header-nav-bar .burgers {
     display: block;
   }
-  header .header-nav-bar .burgers p {
+  header .header-nav-bar .burgers.active .firstbar {
+    -webkit-transform: rotate(45deg) translate(0px, 12px);
+            transform: rotate(45deg) translate(0px, 12px);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  header .header-nav-bar .burgers.active .secondbar {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-transform: rotate(-45deg) translate(-7px, -5px);
+            transform: rotate(-45deg) translate(-7px, -5px);
+  }
+  header .header-nav-bar .burgers .firstbar, header .header-nav-bar .burgers .secondbar {
     border: 1px solid #262c55;
     border-radius: 3px;
     width: 28px;
@@ -834,11 +846,31 @@ footer .copyright_policy ul li a:hover {
     -webkit-box-shadow: 2px 2px 12px 3px rgba(128, 128, 128, 0.124);
             box-shadow: 2px 2px 12px 3px rgba(128, 128, 128, 0.124);
   }
+  header .header-nav-bar .burgers .firstbar {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-transform: rotate(0deg) translate(0px, 3px);
+            transform: rotate(0deg) translate(0px, 3px);
+  }
+  header .header-nav-bar .burgers .secondbar {
+    -webkit-transform: rotate(0deg) translate(0px, 4px);
+            transform: rotate(0deg) translate(0px, 4px);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
   .mobile_nav {
     position: fixed;
     left: 100%;
     top: 0;
     width: 100%;
+    z-index: 98;
+    min-height: 150vh;
+    background-color: rgba(255, 0, 0, 0.151);
+  }
+  .mobile_nav.active {
+    right: 100%;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
   }
   .mobile_nav ul {
     display: block;
@@ -938,10 +970,11 @@ footer .copyright_policy ul li a:hover {
   header .header-nav-bar button {
     display: none;
   }
-  header .header-nav-bar .burger {
+  header .header-nav-bar .burgers {
     display: block;
+    cursor: pointer;
   }
-  header .header-nav-bar .burger p {
+  header .header-nav-bar .burgers .firstbar, header .header-nav-bar .burgers .secondbar {
     border: 1px solid #262c55;
     border-radius: 3px;
     width: 28px;
