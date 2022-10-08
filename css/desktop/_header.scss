@@ -16,6 +16,7 @@ header {
         .nav-bar-left {
             @include listStyle;
              width: 185px;
+             z-index: 999;
            
             a {
                 @include textDecoration;
@@ -138,5 +139,5 @@ header {
 
 }
 .mobile_nav{
-    display: none;
+    display: block;
 }

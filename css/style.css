@@ -59,6 +59,7 @@ header .header-nav-bar {
 header .header-nav-bar .nav-bar-left {
   list-style: none;
   width: 185px;
+  z-index: 999;
 }
 
 header .header-nav-bar .nav-bar-left a {
@@ -197,7 +198,7 @@ header .header-nav-bar .burger {
 }
 
 .mobile_nav {
-  display: none;
+  display: block;
 }
 
 .endless-possibilities {
@@ -825,6 +826,7 @@ footer .copyright_policy ul li a:hover {
   }
   header .header-nav-bar .burgers {
     display: block;
+    z-index: 999;
   }
   header .header-nav-bar .burgers.active .firstbar {
     -webkit-transform: rotate(45deg) translate(0px, 12px);
@@ -864,11 +866,10 @@ footer .copyright_policy ul li a:hover {
     top: 0;
     width: 100%;
     z-index: 98;
-    min-height: 150vh;
-    background-color: rgba(255, 0, 0, 0.151);
+    background-color: white;
   }
   .mobile_nav.active {
-    right: 100%;
+    left: 0%;
     -webkit-transition: 0.1s;
     transition: 0.1s;
   }
