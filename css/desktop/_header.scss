@@ -16,6 +16,7 @@ header {
         .nav-bar-left {
             @include listStyle;
              width: 185px;
+            //  z-index: 999;
            
             a {
                 @include textDecoration;
@@ -131,9 +132,12 @@ header {
                 }
             }
         }
-        .burger{
+        .burgers{
             display: none;
         }
     }
 
+}
+.mobile_nav{
+    display: none;
 }

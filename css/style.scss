@@ -55,7 +55,11 @@
 
 // mobile-size
 
-@media (max-width: 600px) {
+// @import './mobile/mobile_nav'; //max-width:900px this file was imported by Billy for the responsive navigation on mobile and tablet
+@media (max-width:900px){
+    @import './mobile/mobile_nav'; 
+}
+@media (max-width: 700px) {
     @import './mobile/header';
     @import './mobile/endless';
     @import './mobile/abt-partners';
@@ -63,5 +67,5 @@
     @import './mobile/API';
     @import './mobile/global';
 }
-@import './mobile/footer'; //this file was imported by billy
+@import './mobile/footer'; //this file was imported by Billy
 

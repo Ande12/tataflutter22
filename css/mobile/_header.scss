@@ -33,9 +33,10 @@ header {
         button{
             display: none;
         }
-        .burger{
+        .burgers{
             display: block;
-            p{
+            cursor: pointer;
+            .firstbar, .secondbar{
                 border: 1px solid $header-nav-line-color;
                 border-radius: 3px;
                 width: 28px;
