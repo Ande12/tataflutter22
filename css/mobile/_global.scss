@@ -64,22 +64,24 @@
 
 
     .create_financial_account{
-    margin-top: 40px;
+    margin-top: 15%;
     background-color: #000000ed;
     border-radius: 8px;
-    padding: 50px 150px;
-    margin-bottom: 200px;
-    width: 700px;
+    padding: 20px 20px;
+    margin-bottom: 190px;
+    width: 100%;
 
     h1{
         color: #fff;
-        font-size: 60px;
+        font-size:27px;
+        width: 100%;
     }
     p{
+        width: 100%;
         color: #fff;
-        margin-top: 50px;
-        font-size: 20px;
-        margin-bottom: 100px;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-bottom: 50px;
     }
     button{
         font-size: 20px;
