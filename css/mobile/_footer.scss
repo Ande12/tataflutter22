@@ -46,6 +46,8 @@
                     display: flex;
                     align-items: center;
                     position: relative;
+                    width: 90%;
+                    margin-left: 5%;
                    
 
                     &::after{
@@ -93,8 +95,8 @@
             .important_details{
                 border-top:1px solid whitesmoke;
                 border-bottom:1px solid whitesmoke;
-                width: 95%;
-                margin-left: 2.5%;
+                width: 98%;
+                margin-left: 1%;
                 display: block;
                 padding: 30px 0px 30px 0px;
                 .footer_heading{

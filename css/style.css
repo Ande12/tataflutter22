@@ -869,58 +869,73 @@ footer .copyright_policy ul li a:hover {
     z-index: 98;
     height: calc(100% - 0px);
     background-color: white;
-    padding-top: 130px;
     padding-bottom: 30px;
     overflow-y: scroll;
+  }
+  .mobile_nav header {
+    list-style: none;
+    position: relative;
+    top: 3px;
+    width: 185px;
+  }
+  .mobile_nav header a {
+    text-decoration: none;
+  }
+  .mobile_nav header a svg {
+    height: 44.05px;
+    width: 185px;
   }
   .mobile_nav.active {
     left: 0%;
     -webkit-transition: 0.1s;
     transition: 0.1s;
   }
-  .mobile_nav ul {
+  .mobile_nav section {
+    padding-top: 130px;
+  }
+  .mobile_nav section ul {
     display: block;
   }
-  .mobile_nav ul h3 {
+  .mobile_nav section ul h3 {
     font-size: 12px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #686868;
     padding: 10px 0px 0px 20px;
   }
-  .mobile_nav ul .middle_list {
+  .mobile_nav section ul .middle_list {
     border-bottom: 1px solid #262c55a2;
     border-top: 1px solid #262c55a2;
     border-style: dashed;
     border-right: none;
     border-left: none;
   }
-  .mobile_nav ul li.mobile_list ul, .mobile_nav ul .middle_list ul {
+  .mobile_nav section ul li.mobile_list ul, .mobile_nav section ul .middle_list ul {
     margin: 20px 0px 20px 0px;
     list-style-type: none;
   }
-  .mobile_nav ul li.mobile_list ul li, .mobile_nav ul .middle_list ul li {
+  .mobile_nav section ul li.mobile_list ul li, .mobile_nav section ul .middle_list ul li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 20px;
     margin: 10px 0px 20px 20px;
   }
-  .mobile_nav ul li.mobile_list ul li svg, .mobile_nav ul .middle_list ul li svg {
+  .mobile_nav section ul li.mobile_list ul li svg, .mobile_nav section ul .middle_list ul li svg {
     height: 40px;
     width: 40px;
   }
-  .mobile_nav ul li.mobile_list ul li h2 a, .mobile_nav ul .middle_list ul li h2 a {
+  .mobile_nav section ul li.mobile_list ul li h2 a, .mobile_nav section ul .middle_list ul li h2 a {
     text-decoration: none;
     color: #262c55;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
   }
-  .mobile_nav ul li.mobile_list ul li h2 a:hover span, .mobile_nav ul .middle_list ul li h2 a:hover span {
+  .mobile_nav section ul li.mobile_list ul li h2 a:hover span, .mobile_nav section ul .middle_list ul li h2 a:hover span {
     color: #00abab;
   }
-  .mobile_nav ul li.mobile_list ul li h2 a span, .mobile_nav ul .middle_list ul li h2 a span {
+  .mobile_nav section ul li.mobile_list ul li h2 a span, .mobile_nav section ul .middle_list ul li h2 a span {
     font-size: 13px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -1249,7 +1264,7 @@ footer .copyright_policy ul li a:hover {
     line-height: 22px;
   }
   .global_reach .create_financial_account {
-    margin-top: 40px;
+    margin-top: 15%;
     background-color: #000000ed;
     border-radius: 8px;
     padding: 20px 20px;
@@ -1325,6 +1340,8 @@ footer .copyright_policy ul li a:hover {
         -ms-flex-align: center;
             align-items: center;
     position: relative;
+    width: 90%;
+    margin-left: 5%;
   }
   footer .footer-links .important_details .footer_heading::after {
     content: "\f078";
@@ -1362,8 +1379,8 @@ footer .copyright_policy ul li a:hover {
   footer .countries_medialinks .important_details {
     border-top: 1px solid whitesmoke;
     border-bottom: 1px solid whitesmoke;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 98%;
+    margin-left: 1%;
     display: block;
     padding: 30px 0px 30px 0px;
   }
