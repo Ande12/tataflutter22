@@ -510,11 +510,6 @@ header .header-nav-bar .burgers {
   padding-bottom: 30px;
 }
 
-footer {
-  max-width: 80%;
-  margin: 0 auto;
-}
-
 footer .footer-links .footer_links_desktop, footer .footer-links .footer_links_mobile {
   display: -ms-grid;
   display: grid;
@@ -545,6 +540,10 @@ footer .footer-links .footer_links_desktop .important_details ul li a, footer .f
   font-size: 16px;
   font-family: moderat-light;
   line-height: 19px;
+}
+
+footer .footer-links .footer_links_desktop .important_details ul li a:hover, footer .footer-links .footer_links_mobile .important_details ul li a:hover {
+  color: #00abab;
 }
 
 footer .footer-links .footer_links_mobile {
@@ -594,10 +593,6 @@ footer .countries_medialinks .important_details {
   display: none;
 }
 
-footer .countries_medialinks .country-button {
-  width: 100%;
-}
-
 footer .countries_medialinks .country-button .button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -619,7 +614,7 @@ footer .countries_medialinks .country-button .button .camer {
 
 footer .countries_medialinks .country-button .button .camer svg {
   width: 28px;
-  height: 28px;
+  height: 100%;
   border-radius: 50%;
 }
 
@@ -960,6 +955,9 @@ footer .copyright_policy ul li a:hover {
 }
 
 @media (max-width: 700px) {
+  * {
+    outline: 1px solid red;
+  }
   header {
     width: 100%;
     height: 10%;
@@ -1293,8 +1291,9 @@ footer .copyright_policy ul li a:hover {
 
 @media (max-width: 900px) {
   footer {
-    width: 95%;
-    margin-left: 2.5%;
+    outline: 1px solid red;
+    width: 98%;
+    margin-left: 1%;
   }
   footer .footer-links {
     display: block;
@@ -1310,8 +1309,8 @@ footer .copyright_policy ul li a:hover {
   footer .footer-links .important_details {
     border-top: 1px solid whitesmoke;
     border-bottom: 1px solid whitesmoke;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 96%;
+    margin-left: 2%;
     padding: 30px 0px 30px 0px;
   }
   footer .footer-links .important_details ul {
@@ -1340,8 +1339,8 @@ footer .copyright_policy ul li a:hover {
         -ms-flex-align: center;
             align-items: center;
     position: relative;
-    width: 90%;
-    margin-left: 5%;
+    width: 98%;
+    margin-left: 1%;
   }
   footer .footer-links .important_details .footer_heading::after {
     content: "\f078";
@@ -1349,7 +1348,7 @@ footer .copyright_policy ul li a:hover {
     font-size: 13px;
     font-weight: bold;
     position: absolute;
-    right: 3px;
+    left: 99%;
   }
   footer .footer-links .important_details .footer_heading.active::after {
     -webkit-transform: rotate(180deg);
@@ -1359,7 +1358,8 @@ footer .copyright_policy ul li a:hover {
     display: block;
   }
   footer .footer-links .country-button {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
   footer .footer-links .country-button .count-flag .trial .about-countries {
     display: -ms-grid;
@@ -1371,7 +1371,7 @@ footer .copyright_policy ul li a:hover {
     display: block;
     border: none;
     margin-top: -80px;
-    margin: -80px 0px -30px 0px;
+    margin: -80px 0px -30px 10px;
   }
   footer .countries_medialinks .medialinks {
     display: none;

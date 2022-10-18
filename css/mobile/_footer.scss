@@ -1,7 +1,8 @@
 @media (max-width:900px){
     footer{
-        width: 95%;
-        margin-left: 2.5%;
+        outline:1px solid red;
+        width: 98%;
+        margin-left: 1%;
         .footer-links{
             display: block;
             width: 100%;
@@ -16,8 +17,8 @@
             .important_details{
                 border-top:1px solid whitesmoke;
                 border-bottom:1px solid whitesmoke;
-                width: 95%;
-                margin-left: 2.5%;
+                width: 96%;
+                margin-left: 2%;
                 padding: 30px 0px 30px 0px;
 
                 ul{
@@ -46,9 +47,8 @@
                     display: flex;
                     align-items: center;
                     position: relative;
-                    width: 90%;
-                    margin-left: 5%;
-                   
+                    width: 98%;
+                    margin-left: 1%;
 
                     &::after{
                         content: "\f078";
@@ -56,7 +56,7 @@
                         font-size:13px;
                         font-weight:bold;
                         position: absolute;
-                        right: 3px;
+                        left: 99%;
                     }
 
                     &.active::after{
@@ -72,8 +72,8 @@
 
             //style to display country names vertically (block)
             .country-button{
-                width: 100%;
-
+                width: 90%;
+                margin-left: 5%;
                 .count-flag{
                     .trial{
                         .about-countries{
@@ -88,7 +88,7 @@
             display: block;
             border: none;
             margin-top: -80px;
-            margin: -80px 0px -30px 0px;
+            margin: -80px 0px -30px 10px;
             .medialinks{
                 display: none;
             }
