@@ -1,0 +1,30 @@
+.endless-possibilities{
+    width:96%;
+    margin-left: 2%;
+    padding: 90px 0px 0px;
+    .endless-possi-info{
+     padding: $header-nav-bar-margin;
+    h1{
+       width: 100%;
+       b{
+       font-family: milik;
+       font-size: 50px;
+       font-weight: 500;
+       line-height: 1.6;
+       margin: 0px 0px 30px;
+        
+       span{
+          color: $section-1-info-h4-span-color;
+       }
+       }
+    }
+    p{
+       font-family: moderat-light;
+       font-size: 22px;
+       line-height: 1.5;
+       color: #000;
+       padding: 30px 0px 50px;
+       width: 55%;
+    }
+    }
+}
