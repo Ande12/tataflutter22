@@ -71,11 +71,15 @@
 //     @import './mobile/mobile_nav'; 
 // @import './mobile/mobile_nav'; //max-width:900px this file was imported by Billy for the responsive navigation on mobile and tablet
 @media (max-width:900px){
+    @import './mobile/footer'; //this file was imported by Billy
     @import './mobile/mobile_nav'; 
     @import './tablet/tabletBody';
+    @import './tablet/tabletHeader';
 }
 @media (max-width: 700px) {
-    // outline : 1px solid red;
+    body{
+        overflow-x: hidden;
+    }
     @import './mobile/header';
     @import './mobile/endless';
     @import './mobile/abt-partners';
@@ -86,5 +90,4 @@
     @import './mobile/section-unified';
     @import './mobile/section-business-tools';
 }
-@import './mobile/footer'; //this file was imported by Billy
 
