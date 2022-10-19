@@ -42,3 +42,7 @@
     line-height: 19px;
     // margin: 100px;
 }
+@mixin container($width, $margin-left){
+    width:$width;
+    margin-left:$margin-left;
+}

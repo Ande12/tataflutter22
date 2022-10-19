@@ -79,10 +79,13 @@
     @import './tablet/section-unified';
     @import './tablet/section-business-tools';
 }
+@media (max-width: 750px){
+    @import './tablet/tablet750px';
+}
 @media (max-width: 700px) {
-    body{
-        overflow-x: hidden;
-    }
+    // body{
+    //     overflow-x: hidden;
+    // }
     @import './mobile/header';
     @import './mobile/endless';
     @import './mobile/abt-partners';

@@ -217,7 +217,7 @@ header .header-nav-bar .burgers {
   font-family: milik;
   font-size: 100px;
   font-weight: 500;
-  line-height: 108px;
+  line-height: 1.6;
   margin: 0px 0px 30px;
 }
 
@@ -252,6 +252,8 @@ header .header-nav-bar .burgers {
   color: #fff;
   padding: 21px 24px;
   margin-bottom: 80px;
+  border: none;
+  outline: none;
 }
 
 .about-partners .column-1 button a {
@@ -1448,9 +1450,13 @@ footer .copyright_policy ul li a:hover {
   header .header-nav-bar nav, header .header-nav-bar .nav-bar-right {
     display: none;
   }
+  header .header-nav-bar .nav-bar-left {
+    margin-left: -28px;
+  }
   header .header-nav-bar .burgers {
     display: block;
     cursor: pointer;
+    margin-right: -25px;
     z-index: 999;
   }
   header .header-nav-bar .burgers.active .firstbar {
@@ -1585,31 +1591,121 @@ footer .copyright_policy ul li a:hover {
   .endless-possibilities {
     width: 96%;
     margin-left: 2%;
-    padding: 90px 0px 0px;
+    padding: 70px 0px 20px 0px;
   }
   .endless-possibilities .endless-possi-info {
-    padding: 0px 108.5px;
+    padding: 0px;
   }
   .endless-possibilities .endless-possi-info h1 {
-    width: 100%;
+    width: 700px;
   }
   .endless-possibilities .endless-possi-info h1 b {
-    font-family: milik;
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 1.6;
-    margin: 0px 0px 30px;
-  }
-  .endless-possibilities .endless-possi-info h1 b span {
-    color: #fb9129;
+    font-size: 65px;
+    line-height: 1.2;
   }
   .endless-possibilities .endless-possi-info p {
-    font-family: moderat-light;
-    font-size: 22px;
     line-height: 1.5;
-    color: #000;
     padding: 30px 0px 50px;
-    width: 55%;
+    width: 600px;
+  }
+  .about-partners {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    width: 98%;
+    margin-left: 1%;
+  }
+  .about-partners .column-1 button {
+    margin: -40px 0px 0px 14px;
+    padding: 21px 24px;
+    margin-bottom: 80px;
+  }
+  .about-partners .column-1 button a {
+    text-decoration: none;
+  }
+  .about-partners .column-1 .foot-city {
+    background-image: url("/images/foot-city.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 600px;
+    position: relative;
+    background-position: 90% 50%;
+    left: -5px;
+  }
+  .about-partners .column-1 .foot-city .foot-city-content {
+    position: relative;
+    width: 450px;
+    height: 600px;
+  }
+  .about-partners .column-1 .foot-city .foot-city-content span {
+    top: 93%;
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-family: moderat-light;
+  }
+  .about-partners .column-1 p {
+    display: none;
+  }
+  .about-partners .column-2 {
+    margin-top: -60px;
+    outline: 2px solid;
+  }
+  .about-partners .column-2 .famasi {
+    background-image: url("/images/Famasi-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 600px;
+    position: relative;
+    background-position: 50% 40%;
+  }
+  .about-partners .column-2 .famasi .famasi-content {
+    height: 600px;
+    position: relative;
+  }
+  .about-partners .column-2 .famasi .famasi-content span {
+    top: 90%;
+    position: absolute;
+    left: 30px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-family: moderat-light;
+  }
+  .about-partners .column-2 p {
+    margin-top: 74px;
+    width: 81%;
+    color: #1d1d1d;
+    font-family: moderat-light;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+  .trustees {
+    max-width: 98%;
+    margin-left: 1%;
+    padding: 10% 0;
+  }
+  .trustees .million {
+    padding-left: 0px;
+    font-family: moderat-regular;
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    color: #1d1d1d;
+  }
+  .trustees .partner-icon {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+  .trustees .partner-icon .chipper, .trustees .partner-icon .piggyvest, .trustees .partner-icon .microsoft {
+    width: 30%;
+    height: 10%;
   }
   .section-container {
     border: none;
@@ -1670,7 +1766,7 @@ footer .copyright_policy ul li a:hover {
     font-family: moderat, sans-serif;
     color: #fff;
     cursor: pointer;
-    background-color: rgb(10, 14, 39);
+    background-color: #0a0e27;
     border-radius: 10px;
     border-style: none;
   }
@@ -1681,12 +1777,13 @@ footer .copyright_policy ul li a:hover {
     max-height: 650px;
     height: 650px;
     border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.13);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.13);
   }
   .section-container .section-unified .section-pay .section-payment {
     border: none;
     padding: 60px 0;
-    margin: 5px 0;
+    margin: 5px  0;
   }
   .section-container .section-unified .section-pay .section-payment .accept-payment, .section-container .section-unified .section-pay .section-payment .transfer-payment {
     margin-bottom: 60px;
@@ -1712,39 +1809,47 @@ footer .copyright_policy ul li a:hover {
   }
   .section-container .section-unified .section-pay .section-payment .accept-payment button, .section-container .section-unified .section-pay .section-payment .transfer-payment button {
     display: block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: Moderat, sans-serif;
-    color: rgb(251, 78, 32);
+    color: #fb4e20;
     height: 16px;
     font-size: 18px;
     font-weight: 500;
     line-height: 16px;
     border: none;
-    background-color: white;
+    background-color: #ffff;
     cursor: pointer;
   }
   .section-container .section-unified .section-pay .section-payment .accept-payment button img, .section-container .section-unified .section-pay .section-payment .transfer-payment button img {
     height: 25px;
     position: relative;
     top: 6px;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
     transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
   }
   .business-tools {
     display: block;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 160px 20px;
-    background-color: rgb(248, 250, 253);
+    background-color: #f8fafd;
   }
   .business-tools .business-container {
     display: block;
-    max-width: 1092px;
+    width: 90%;
+    margin-left: 5%;
+    padding-left: -50px;
     margin-bottom: 16px;
   }
   .business-tools .business-container h1 {
     padding: 0;
     margin-bottom: 108px;
-    max-width: 1087px;
-    line-height: 56px;
+    width: 98%;
+    margin-left: 1%;
+    line-height: 1.6;
     letter-spacing: -1.5px;
     font-size: 50px;
     font-weight: 500;
@@ -1787,7 +1892,7 @@ footer .copyright_policy ul li a:hover {
     font-weight: 500;
     font-family: moderat, sans-serif;
     color: #fff;
-    background-color: rgb(10, 14, 39);
+    background-color: #0a0e27;
     border-radius: 10px;
     border-style: none;
     cursor: pointer;
@@ -1797,10 +1902,11 @@ footer .copyright_policy ul li a:hover {
     margin: 0;
     max-width: 860px;
     height: 22px;
-    background-color: rgb(241, 241, 241);
+    background-color: #f1f1f1;
   }
   .business-tools .business-container .payment {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     display: block;
     padding: 0;
     margin-bottom: 70px;
@@ -1810,7 +1916,8 @@ footer .copyright_policy ul li a:hover {
     display: none;
   }
   .business-tools .business-container .payment div .invoices, .business-tools .business-container .payment div .payment-links {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     display: block;
     padding: 0;
     margin-bottom: 60px;
@@ -1822,7 +1929,7 @@ footer .copyright_policy ul li a:hover {
     font-weight: 600;
     font-size: 24px;
     font-family: moderat, sans-serif;
-    color: rgb(5, 5, 5);
+    color: #050505;
   }
   .business-tools .business-container .payment div .invoices p, .business-tools .business-container .payment div .payment-links p {
     padding-left: 5px;
@@ -1837,11 +1944,11 @@ footer .copyright_policy ul li a:hover {
     font-weight: 500;
     font-size: 16px;
     font-family: moderat, sans-serif;
-    color: rgb(251, 78, 32);
+    color: #fb4e20;
     cursor: pointer;
     border: none;
     height: 19px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.123);
   }
   .business-tools .business-container .payment div .invoices button img, .business-tools .business-container .payment div .payment-links button img {
     padding: 0;
@@ -1856,7 +1963,7 @@ footer .copyright_policy ul li a:hover {
     margin: 0;
     max-width: 860px;
     height: 66px;
-    background-color: rgb(241, 241, 241);
+    background-color: #f1f1f1;
   }
   .business-tools .business-container .tools-sec {
     max-width: 1092px;
@@ -1869,7 +1976,7 @@ footer .copyright_policy ul li a:hover {
     font-weight: 300;
     font-size: 50px;
     font-family: moderat-light;
-    color: rgb(29, 29, 29);
+    color: #1d1d1d;
   }
   .business-tools .business-container .tools-sec p span {
     color: #35a169;
@@ -1882,17 +1989,122 @@ footer .copyright_policy ul li a:hover {
     font-weight: 500;
     font-family: moderat, sans-serif;
     color: #fff;
-    background-color: rgb(10, 14, 39);
+    background-color: #0a0e27;
     border-radius: 10px;
     border-style: none;
     cursor: pointer;
   }
 }
 
-@media (max-width: 700px) {
-  body {
-    overflow-x: hidden;
+@media (max-width: 750px) {
+  .about-partners {
+    display: block;
   }
+  .about-partners .column-1 {
+    width: 100%;
+  }
+  .about-partners .column-1 button {
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: moderat-medium;
+    border-radius: 16px;
+    background: #0a0e27;
+    color: #fff;
+    padding: 15px 18px;
+    margin-bottom: 0px;
+  }
+  .about-partners .column-1 button a {
+    text-decoration: none;
+  }
+  .about-partners .column-1 .foot-city {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: -40px 0px 0px 0px;
+    background-image: url("/images/foot-city.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    margin-top: 5%;
+    height: 350px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+  .about-partners .column-1 .foot-city .foot-city-content {
+    width: 100%;
+    height: 100%;
+  }
+  .about-partners .column-1 .foot-city .foot-city-content span {
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    top: 75%;
+    color: #fff;
+    font-weight: bold;
+    font-family: moderat-light;
+  }
+  .about-partners .column-1 p {
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    max-width: 95%;
+    color: #1d1d1d;
+    font-family: moderat-light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-left: 5%;
+  }
+  .about-partners .column-2 .famasi {
+    background-image: url("/images/Famasi-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 90%;
+    height: 350px;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  .about-partners .column-2 .famasi .famasi-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .about-partners .column-2 .famasi .famasi-content span {
+    top: 83%;
+    position: absolute;
+    left: 30px;
+    font-size: 23px;
+    color: #fff;
+    font-weight: bold;
+    font-family: moderat-light;
+  }
+  .about-partners .column-2 p {
+    display: none;
+  }
+  .trustees {
+    max-width: 98%;
+    margin-left: 1%;
+    padding: 10% 0;
+  }
+  .trustees .million {
+    padding-left: 0px;
+    font-family: moderat-regular;
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    color: #1d1d1d;
+  }
+  .trustees .partner-icon {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+  .trustees .partner-icon .chipper, .trustees .partner-icon .piggyvest, .trustees .partner-icon .microsoft {
+    width: 30%;
+    height: 10%;
+  }
+}
+
+@media (max-width: 700px) {
   header {
     width: 100%;
     height: 10%;

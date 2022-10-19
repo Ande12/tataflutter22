@@ -4,16 +4,20 @@
         margin-left: 1%;
         .header-nav-bar{
             width: 98%;
-            margin-left: 1%;
+            margin-left:1%;
             display: flex;
             align-items: center;
             justify-content: space-between;
             nav, .nav-bar-right{
                 display: none;
             }
+            .nav-bar-left{
+                margin-left: -28px;
+            }
             .burgers{
                 display: block;
                 cursor: pointer;
+                margin-right: -25px;
                 z-index: 999;
                 &.active .firstbar{
                     transform: rotate(45deg) translate(0px, 12px);
