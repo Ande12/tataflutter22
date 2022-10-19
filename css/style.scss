@@ -53,19 +53,36 @@
 @import './desktop/global';
 @import './desktop/footer';
 
-// mobile-size
+//nnn
+// @media (max-width: 1361px){
 
-// @import './mobile/mobile_nav'; //max-width:900px this file was imported by Billy for the responsive navigation on mobile and tablet
-@media (max-width:900px){
-    @import './mobile/mobile_nav'; 
+//     @import './small-laptop/section-unified';
+//     @import './small-laptop/section-business-tools';
+// }
+// small laptop screen
+@media (max-width: 1200px){
+
+    @import './small-laptop/section-unified';
+    @import './small-laptop/section-business-tools';
 }
-@media (max-width: 700px) {
+
+// tablet screen size
+@media (max-width: 900px) {
+    @import './mobile/mobile_nav'; 
+// @import './mobile/mobile_nav'; //max-width:900px this file was imported by Billy for the responsive navigation on mobile and tablet
+    @import './tablet/section-unified';
+    @import './tablet/section-business-tools';
+}
+@media (max-width: 600px) {
     @import './mobile/header';
     @import './mobile/endless';
     @import './mobile/abt-partners';
     @import './mobile/trustees';
     @import './mobile/API';
     @import './mobile/global';
+    //Bale
+    @import './mobile/section-unified';
+    @import './mobile/section-business-tools';
 }
 @import './mobile/footer'; //this file was imported by Billy
 

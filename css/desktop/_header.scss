@@ -44,19 +44,19 @@ header {
 
                     .info{
                         padding-bottom: 20px;
-                    }
-                    
+                    }                                             
                     &:hover {
                         ul {
-                            display: block;
+                            // display: block;
+                            visibility: visible;
                             text-align: left;
-                            // transform: translateY(-5px);
-                            transform: translate(0px, -15px);
+                            transform: translate(0px, -16px);
                         }
                     }
                         ul {
                             @include listStyle;
-                            display: none;
+                            // display: none;
+                            visibility: hidden;
                             position: absolute;
                             left: -50px; 
                             background: #fff;
@@ -64,7 +64,7 @@ header {
                             width: $dropdown-width;
                             height:$dropdown-height;
                             border-radius: 8px;
-                            transition: transform 2s ease-in 3s;
+                            transition: transform 0.5s;
                             box-shadow: 0.005px 0px 40px 1px rgba(128, 128, 128, 0.342);
 
                             li {
