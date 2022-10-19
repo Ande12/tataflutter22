@@ -410,12 +410,13 @@ header .header-nav-bar .burgers {
   border: none;
 }
 
-.global_reach {
-  max-width: 80%;
-  margin: 0 auto;
+.global-reach {
+  overflow-x: hidden;
+  width: 90%;
+  margin-left: 10%;
 }
 
-.global_reach .global_reach_text h1 {
+.global-reach .global-reach-text h1 {
   margin-bottom: 100px;
   font-size: 80px;
   margin-top: 150px;
@@ -425,141 +426,257 @@ header .header-nav-bar .burgers {
   color: #1d1d1d;
 }
 
-.global_reach .global_reach_text h1 span {
+.global-reach .global-reach-text h1 span {
   color: #6672c7;
 }
 
-.global_reach .going-global {
+.global-reach .going-global {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.global_reach .going-global .global-anim {
-  margin-top: -5%;
-  position: absolute;
-  right: 1px;
-  height: 700px;
-  width: 700px;
-  background: #262c55 url("/images/globe.png") 0 0 repeat;
-  border-radius: 50%;
-  background-size: 1600px;
-  -webkit-animation: rotate 12s linear infinite;
-          animation: rotate 12s linear infinite;
-  animation-direction: reverse;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+.global-reach .going-global .global-anim {
+  max-width: 60%;
+  margin-top: -25%;
 }
 
-.global_reach .going-global .global-anim span {
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  border-radius: 40px;
-  top: 48%;
-  left: 25%;
-  background-color: #eb7da7;
-  -webkit-animation-name: sparkle;
-          animation-name: sparkle;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+.global-reach .going-global .global-anim .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.global_reach .going-global .global-anim .spark2 {
-  top: 70%;
-  left: 32%;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  background-color: #00abab;
+.global-reach .going-global .global-anim .container .shape {
+  position: relative;
+  left: 300px;
 }
 
-.global_reach .going-global .global-anim .spark3 {
-  top: 50%;
-  left: 44%;
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
-  background-color: #6672c7;
+.global-reach .going-global .global-anim .container .shape svg .orange {
+  stroke-dasharray: 1509;
+  stroke-dashoffset: 500;
+  -webkit-animation: dash2 3s linear infinite;
+          animation: dash2 3s linear infinite;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 
-.global_reach .going-global .global-anim .spark4 {
-  top: 18%;
-  left: 17%;
+@-webkit-keyframes dash2 {
+  0% {
+    stroke-dashoffset: 1509;
+  }
+  20% {
+    stroke-dashoffset: 40;
+  }
+  40% {
+    stroke-dashoffset: 1509;
+  }
+  80% {
+    stroke-dashoffset: 3018;
+  }
+  100% {
+    stroke-dashoffset: 1509;
+  }
+}
+
+@keyframes dash2 {
+  0% {
+    stroke-dashoffset: 1509;
+  }
+  20% {
+    stroke-dashoffset: 40;
+  }
+  40% {
+    stroke-dashoffset: 1509;
+  }
+  80% {
+    stroke-dashoffset: 3018;
+  }
+  100% {
+    stroke-dashoffset: 1509;
+  }
+}
+
+.global-reach .going-global .global-anim .container .shape svg .blue {
+  stroke-dasharray: 1552;
+  stroke-dashoffset: 500;
+  -webkit-animation: dash3 3s linear infinite;
+          animation: dash3 3s linear infinite;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+@-webkit-keyframes dash3 {
+  0% {
+    stroke-dashoffset: 1552;
+  }
+  20% {
+    stroke-dashoffset: 40;
+  }
+  40% {
+    stroke-dashoffset: 1552;
+  }
+  80% {
+    stroke-dashoffset: 3104;
+  }
+  100% {
+    stroke-dashoffset: 1552;
+  }
+}
+
+@keyframes dash3 {
+  0% {
+    stroke-dashoffset: 1552;
+  }
+  20% {
+    stroke-dashoffset: 40;
+  }
+  40% {
+    stroke-dashoffset: 1552;
+  }
+  80% {
+    stroke-dashoffset: 3104;
+  }
+  100% {
+    stroke-dashoffset: 1552;
+  }
+}
+
+.global-reach .going-global .global-anim .container .shape svg .pink {
+  stroke-dasharray: 1380;
+  stroke-dashoffset: 500;
+  -webkit-animation: dash3 3s linear infinite;
+          animation: dash3 3s linear infinite;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
-  background-color: #006aff;
 }
 
-.global_reach .going-global .global-anim .spark5 {
-  top: 60%;
-  left: 85%;
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
-  background-color: green;
-}
-
-.global_reach .going-global .global-anim .spark6 {
-  top: 20%;
-  left: 60%;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  background-color: #eb5757;
-}
-
-.global_reach .going-global .global-anim .spark7 {
-  top: 26%;
-  left: 27%;
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
-  background-color: #ffa07a;
-}
-
-.global_reach .going-global .global-anim .spark8 {
-  top: 26%;
-  left: 54%;
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
-  background-color: #ff7ade;
-}
-
-@-webkit-keyframes sparkle {
-  100% {
-    -webkit-transform: scale(3);
-            transform: scale(3);
-    opacity: 0.7;
-  }
-}
-
-@keyframes sparkle {
-  100% {
-    -webkit-transform: scale(3);
-            transform: scale(3);
-    opacity: 0.7;
-  }
-}
-
-@-webkit-keyframes rotate {
+@keyframes dash3 {
   0% {
-    background-position: 0 0;
+    stroke-dashoffset: 1380;
+  }
+  20% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 1380;
+  }
+  80% {
+    stroke-dashoffset: 2760;
   }
   100% {
-    background-position: 1300px 0;
+    stroke-dashoffset: 1380;
   }
 }
 
-@keyframes rotate {
+.global-reach .going-global .global-anim .container .shape svg .cyan {
+  stroke-dasharray: 1509;
+  stroke-dashoffset: 500;
+  -webkit-animation: dash4 3s linear infinite;
+          animation: dash4 3s linear infinite;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+@-webkit-keyframes dash4 {
   0% {
-    background-position: 0 0;
+    stroke-dashoffset: 1509;
+  }
+  20% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 1509;
+  }
+  80% {
+    stroke-dashoffset: 3018;
   }
   100% {
-    background-position: 1300px 0;
+    stroke-dashoffset: 1509;
   }
 }
 
-.global_reach .going-global .going-global-right .global_text h3 {
+@keyframes dash4 {
+  0% {
+    stroke-dashoffset: 1509;
+  }
+  20% {
+    stroke-dashoffset: 0;
+  }
+  40% {
+    stroke-dashoffset: 1509;
+  }
+  80% {
+    stroke-dashoffset: 3018;
+  }
+  100% {
+    stroke-dashoffset: 1509;
+  }
+}
+
+.global-reach .going-global .global-anim .container .shape .world-map {
+  z-index: -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0;
+  width: 720px;
+  height: 720px;
+  background: #262c55;
+  border-radius: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 18%;
+  left: 20.3%;
+}
+
+.global-reach .going-global .global-anim .container .shape .world-map img {
+  height: 120%;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1800px);
+            transform: translateX(-1800px);
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1800px);
+            transform: translateX(-1800px);
+  }
+}
+
+.global-reach .going-global .going-global-right {
+  width: 40%;
+}
+
+.global-reach .going-global .going-global-right .global-text h3 {
   border-left: 2px solid black;
   font-size: 20px;
   font-family: moderat-bold;
@@ -567,11 +684,11 @@ header .header-nav-bar .burgers {
   padding-bottom: 5px;
 }
 
-.global_reach .going-global .going-global-right .global_text .currencies {
+.global-reach .going-global .going-global-right .global-text .currencies {
   color: #0abab0;
 }
 
-.global_reach .going-global .going-global-right .global_text p {
+.global-reach .going-global .going-global-right .global-text p {
   padding: 5px 0px 40px 30px;
   border-left: 0.3px dashed grey;
   font-size: 16px;
@@ -579,7 +696,7 @@ header .header-nav-bar .burgers {
   line-height: 1.5;
 }
 
-.global_reach .going-global .going-global-right .global_text .list_1 {
+.global-reach .going-global .going-global-right .global-text .list-1 {
   border-left: 0.3px dashed grey;
   padding-left: 30px;
   display: -webkit-box;
@@ -589,7 +706,7 @@ header .header-nav-bar .burgers {
           column-gap: 80px;
 }
 
-.global_reach .going-global .going-global-right .global_text .list_1 ul li {
+.global-reach .going-global .going-global-right .global-text .list-1 ul li {
   color: #1d1d1d;
   list-style: none;
   padding-top: 20px;
@@ -598,7 +715,7 @@ header .header-nav-bar .burgers {
   line-height: 22px;
 }
 
-.create_financial_account {
+.create-financial-account {
   margin-top: 18%;
   background-color: #000000e3;
   border-radius: 20px;
@@ -609,14 +726,14 @@ header .header-nav-bar .burgers {
           box-shadow: 2px 20px 40px rgba(128, 128, 128, 0.849);
 }
 
-.create_financial_account h1 {
+.create-financial-account h1 {
   color: #fff;
   font-size: 50px;
   padding-top: 30px;
   font-family: milik;
 }
 
-.create_financial_account p {
+.create-financial-account p {
   color: #fff;
   margin-top: 30px;
   font-weight: 300;
@@ -627,7 +744,7 @@ header .header-nav-bar .burgers {
   width: 90%;
 }
 
-.create_financial_account div {
+.create-financial-account div {
   font-size: 16px;
   color: white;
   border: none;
@@ -2104,7 +2221,7 @@ footer .copyright_policy ul li a:hover {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   header {
     width: 100%;
     height: 10%;
@@ -2352,46 +2469,46 @@ footer .copyright_policy ul li a:hover {
     font-size: 14px;
     border: none;
   }
-  .global_reach {
-    max-width: 90%;
-    margin-left: 5%;
+  .global-reach {
+    max-width: 96%;
+    margin-left: 4%;
   }
-  .global_reach .going-global {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .global-reach .going-global {
+    outline: 1px green;
+    display: block;
   }
-  .global_reach .going-global .global_reach_text h1 {
+  .global-reach .going-global .global-reach-text h1 {
+    background-color: red;
     margin-bottom: 8%;
-    font-size: 35px;
+    font-size: 0px;
     margin-top: 150px;
     font-family: milik;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1;
     color: #1d1d1d;
-    width: 100%;
+    width: 50%;
   }
-  .global_reach .going-global .global_reach_text h1 span {
+  .global-reach .going-global .global-reach-text h1 span {
     color: #6672c7;
   }
-  .global_reach .going-global .global_reach_text .global_text h3 {
+  .global-reach .going-global .global-reach-text .global-text h3 {
     border-left: 2px solid black;
     font-size: 20px;
     font-family: moderat-bold;
     padding-left: 30px;
     padding-bottom: 5px;
   }
-  .global_reach .going-global .global_reach_text .global_text .currencies {
+  .global-reach .going-global .global-reach-text .global-text .currencies {
     color: #0abab0;
   }
-  .global_reach .going-global .global_reach_text .global_text p {
+  .global-reach .going-global .global-reach-text .global-text p {
     padding: 5px 0px 70px 30px;
     border-left: 0.3px dashed grey;
     font-size: 16px;
     font-family: moderat-light;
     line-height: 1.5;
   }
-  .global_reach .going-global .global_reach_text .global_text .list_1 {
+  .global-reach .going-global .global-reach-text .global-text .list-1 {
     border-left: 0.3px dashed grey;
     padding-left: 30px;
     display: -webkit-box;
@@ -2400,7 +2517,7 @@ footer .copyright_policy ul li a:hover {
     -webkit-column-gap: 80px;
             column-gap: 80px;
   }
-  .global_reach .going-global .global_reach_text .global_text .list_1 ul li {
+  .global-reach .going-global .global-reach-text .global-text .list-1 ul li {
     color: #1d1d1d;
     list-style: none;
     padding-top: 20px;
@@ -2408,7 +2525,7 @@ footer .copyright_policy ul li a:hover {
     font-family: moderat-light;
     line-height: 22px;
   }
-  .global_reach .create_financial_account {
+  .global-reach .create-financial-account {
     margin-top: 15%;
     background-color: #000000ed;
     border-radius: 8px;
@@ -2416,19 +2533,19 @@ footer .copyright_policy ul li a:hover {
     margin-bottom: 190px;
     width: 100%;
   }
-  .global_reach .create_financial_account h1 {
+  .global-reach .create-financial-account h1 {
     color: #fff;
     font-size: 27px;
     width: 100%;
   }
-  .global_reach .create_financial_account p {
+  .global-reach .create-financial-account p {
     width: 100%;
     color: #fff;
     margin-top: 20px;
     font-size: 18px;
     margin-bottom: 50px;
   }
-  .global_reach .create_financial_account button {
+  .global-reach .create-financial-account button {
     font-size: 20px;
     color: white;
     background-color: #000000ed;

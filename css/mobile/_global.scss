@@ -1,26 +1,31 @@
-.global_reach{
-    max-width: 90%;
-    margin-left: 5%;
+.global-reach{
+    max-width: 96%;
+    margin-left: 4%;
+    // background-color: blue;
 
     .going-global{
-        display: flex;
-        // .global-anim{}
-        .global_reach_text{
+        outline: 1px green;
+        display: block;
+        //  .global-anim{
+
+        //  }
+        .global-reach-text{
             h1{
+                background-color: red;
                 margin-bottom: 8%;
-                font-size: 35px;
+                font-size: 0px;
                 margin-top: 150px;
                 font-family: milik;
                 font-weight: 500;
-                line-height: 1.5;
+                line-height: 1;
                 color: #1d1d1d;
-                width: 100%;
+                width: 50%;
     
                 span{
                     color: #6672c7;
                 }
             }
-            .global_text{
+            .global-text{
     
                 h3{
                     border-left: 2px solid black;
@@ -40,7 +45,7 @@
                     font-family: moderat-light;
                     line-height: 1.5;
                 }
-                .list_1{
+                .list-1{
                     border-left: 0.3px dashed grey;
                     padding-left: 30px;
                     display: flex;
@@ -63,7 +68,7 @@
     }
 
 
-    .create_financial_account{
+    .create-financial-account{
     margin-top: 15%;
     background-color: #000000ed;
     border-radius: 8px;
