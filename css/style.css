@@ -529,10 +529,6 @@ header .header-nav-bar .burgers {
   padding-bottom: 30px;
 }
 
-footer {
-  max-width: 80%;
-  margin: 0 auto;
-}
 footer .footer-links .footer_links_desktop, footer .footer-links .footer_links_mobile {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -558,6 +554,9 @@ footer .footer-links .footer_links_desktop .important_details ul li a, footer .f
   font-size: 16px;
   font-family: moderat-light;
   line-height: 19px;
+}
+footer .footer-links .footer_links_desktop .important_details ul li a:hover, footer .footer-links .footer_links_mobile .important_details ul li a:hover {
+  color: #00abab;
 }
 footer .footer-links .footer_links_mobile {
   display: none;
@@ -590,9 +589,6 @@ footer .countries_medialinks .medialinks li a:hover {
 footer .countries_medialinks .important_details {
   display: none;
 }
-footer .countries_medialinks .country-button {
-  width: 100%;
-}
 footer .countries_medialinks .country-button .button {
   display: flex;
   align-items: center;
@@ -607,7 +603,7 @@ footer .countries_medialinks .country-button .button .camer {
 }
 footer .countries_medialinks .country-button .button .camer svg {
   width: 28px;
-  height: 28px;
+  height: 100%;
   border-radius: 50%;
 }
 footer .countries_medialinks .country-button .button .country-name {
@@ -1124,55 +1120,70 @@ footer .copyright_policy ul li a:hover {
     z-index: 98;
     height: calc(100% - 0px);
     background-color: white;
-    padding-top: 130px;
     padding-bottom: 30px;
     overflow-y: scroll;
+  }
+  .mobile_nav header {
+    list-style: none;
+    position: relative;
+    top: 3px;
+    width: 185px;
+  }
+  .mobile_nav header a {
+    text-decoration: none;
+  }
+  .mobile_nav header a svg {
+    height: 44.05px;
+    width: 185px;
   }
   .mobile_nav.active {
     left: 0%;
     transition: 0.1s;
   }
-  .mobile_nav ul {
+  .mobile_nav section {
+    padding-top: 130px;
+  }
+  .mobile_nav section ul {
     display: block;
   }
-  .mobile_nav ul h3 {
+  .mobile_nav section ul h3 {
     font-size: 12px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #686868;
     padding: 10px 0px 0px 20px;
   }
-  .mobile_nav ul .middle_list {
+  .mobile_nav section ul .middle_list {
     border-bottom: 1px solid rgba(38, 44, 85, 0.6352941176);
     border-top: 1px solid rgba(38, 44, 85, 0.6352941176);
     border-style: dashed;
     border-right: none;
     border-left: none;
   }
-  .mobile_nav ul li.mobile_list ul, .mobile_nav ul .middle_list ul {
+  .mobile_nav section ul li.mobile_list ul, .mobile_nav section ul .middle_list ul {
     margin: 20px 0px 20px 0px;
     list-style-type: none;
   }
-  .mobile_nav ul li.mobile_list ul li, .mobile_nav ul .middle_list ul li {
+  .mobile_nav section ul li.mobile_list ul li, .mobile_nav section ul .middle_list ul li {
     display: flex;
     gap: 20px;
     margin: 10px 0px 20px 20px;
   }
-  .mobile_nav ul li.mobile_list ul li svg, .mobile_nav ul .middle_list ul li svg {
+  .mobile_nav section ul li.mobile_list ul li svg, .mobile_nav section ul .middle_list ul li svg {
     height: 40px;
     width: 40px;
   }
-  .mobile_nav ul li.mobile_list ul li h2 a, .mobile_nav ul .middle_list ul li h2 a {
+  .mobile_nav section ul li.mobile_list ul li h2 a, .mobile_nav section ul .middle_list ul li h2 a {
     text-decoration: none;
     color: #262c55;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
   }
-  .mobile_nav ul li.mobile_list ul li h2 a:hover span, .mobile_nav ul .middle_list ul li h2 a:hover span {
+  .mobile_nav section ul li.mobile_list ul li h2 a:hover span, .mobile_nav section ul .middle_list ul li h2 a:hover span {
     color: #00abab;
   }
-  .mobile_nav ul li.mobile_list ul li h2 a span, .mobile_nav ul .middle_list ul li h2 a span {
+  .mobile_nav section ul li.mobile_list ul li h2 a span, .mobile_nav section ul .middle_list ul li h2 a span {
     font-size: 13px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -1194,284 +1205,8 @@ footer .copyright_policy ul li a:hover {
     color: white;
     text-decoration: none;
   }
-  .section-container {
-    border: none;
-    display: block;
-    padding: 100px 20px;
-  }
-  .section-container .section-unified {
-    padding: 0;
-    margin: 0;
-    max-width: 1092px;
-    border: none;
-  }
-  .section-container .section-unified .main-heading {
-    border: none;
-    max-width: 650px;
-    padding: 0;
-    margin-bottom: 58px;
-    line-height: 56px;
-    letter-spacing: -1.5px;
-    font-weight: 500;
-    font-size: 50px;
-    font-family: milik, sans-serif;
-  }
-  .section-container .section-unified .main-heading span {
-    color: #fb9129;
-  }
-  .section-container .section-unified .section-pay {
-    display: block;
-    max-width: 860px;
-  }
-  .section-container .section-unified .section-pay .section-checkout h1 {
-    padding-left: 5px;
-    margin-bottom: 19px;
-    line-height: 29px;
-    font-weight: 600;
-    font-size: 24px;
-    font-family: moderat, sans-serif;
-    border: none;
-  }
-  .section-container .section-unified .section-pay .section-checkout p {
-    border: none;
-    padding-left: 5px;
-    margin-bottom: 30px;
-    line-height: 32px;
-    font-weight: 300;
-    font-size: 20px;
-    font-family: moderat-light;
-  }
-  .section-container .section-unified .section-pay .section-checkout button {
-    width: 121.89px;
-    height: 50px;
-    padding: 15px, 25px;
-    margin-bottom: 60px;
-    text-align: center;
-    line-height: 20px;
-    font-weight: 500;
-    font-size: 14px;
-    font-family: moderat, sans-serif;
-    color: #fff;
-    cursor: pointer;
-    background-color: rgb(10, 14, 39);
-    border-radius: 10px;
-    border-style: none;
-  }
-  .section-container .section-unified .section-pay .checkout-img {
-    padding: 0;
-    margin: 0;
-    width: 320px;
-    max-height: 650px;
-    height: 650px;
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  }
-  .section-container .section-unified .section-pay .section-payment {
-    border: none;
-    padding: 60px 0;
-    margin: 5px 0;
-  }
-  .section-container .section-unified .section-pay .section-payment .accept-payment, .section-container .section-unified .section-pay .section-payment .transfer-payment {
-    margin-bottom: 60px;
-    border: none;
-  }
-  .section-container .section-unified .section-pay .section-payment .accept-payment h1, .section-container .section-unified .section-pay .section-payment .transfer-payment h1 {
-    border: none;
-    padding-left: 5px;
-    margin-bottom: 19px;
-    line-height: 29px;
-    font-weight: 600;
-    font-size: 24px;
-    font-family: moderat, sans-serif;
-  }
-  .section-container .section-unified .section-pay .section-payment .accept-payment p, .section-container .section-unified .section-pay .section-payment .transfer-payment p {
-    border: none;
-    padding-left: 5px;
-    margin-bottom: 30px;
-    line-height: 32px;
-    font-weight: 300;
-    font-size: 20px;
-    font-family: moderat-light;
-  }
-  .section-container .section-unified .section-pay .section-payment .accept-payment button, .section-container .section-unified .section-pay .section-payment .transfer-payment button {
-    display: block;
-    box-sizing: border-box;
-    font-family: Moderat, sans-serif;
-    color: rgb(251, 78, 32);
-    height: 16px;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 16px;
-    border: none;
-    background-color: white;
-    cursor: pointer;
-  }
-  .section-container .section-unified .section-pay .section-payment .accept-payment button img, .section-container .section-unified .section-pay .section-payment .transfer-payment button img {
-    height: 25px;
-    position: relative;
-    top: 6px;
-    transition: transform 1s;
-  }
-  .business-tools {
-    display: block;
-    box-sizing: border-box;
-    padding: 160px 20px;
-    background-color: rgb(248, 250, 253);
-  }
-  .business-tools .business-container {
-    display: block;
-    max-width: 1092px;
-    margin-bottom: 16px;
-  }
-  .business-tools .business-container h1 {
-    padding: 0;
-    margin-bottom: 108px;
-    max-width: 1087px;
-    line-height: 56px;
-    letter-spacing: -1.5px;
-    font-size: 50px;
-    font-weight: 500;
-    font-family: milik, sans-serif;
-  }
-  .business-tools .business-container h1 span {
-    color: #35a169;
-  }
-  .business-tools .business-container .store {
-    padding: 0;
-    margin: 0;
-    max-width: 860px;
-    margin-bottom: 60px;
-  }
-  .business-tools .business-container .store .store-cont {
-    margin-bottom: 60px;
-  }
-  .business-tools .business-container .store .store-cont h2 {
-    padding-left: 5px;
-    margin-bottom: 16px;
-    line-height: 29px;
-    font-weight: 600;
-    font-size: 24px;
-    font-family: moderat, sans-serif;
-  }
-  .business-tools .business-container .store .store-cont p {
-    padding-left: 5px;
-    margin-bottom: 30px;
-    line-height: 32px;
-    font-weight: 300;
-    font-size: 20px;
-    font-family: moderat-light;
-  }
-  .business-tools .business-container .store .store-cont button {
-    margin: 0;
-    padding: 15px 25px;
-    height: 50px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 500;
-    font-family: moderat, sans-serif;
-    color: #fff;
-    background-color: rgb(10, 14, 39);
-    border-radius: 10px;
-    border-style: none;
-    cursor: pointer;
-  }
-  .business-tools .business-container .store .store-img {
-    padding: 0;
-    margin: 0;
-    max-width: 860px;
-    height: 22px;
-    background-color: rgb(241, 241, 241);
-  }
-  .business-tools .business-container .payment {
-    box-sizing: border-box;
-    display: block;
-    padding: 0;
-    margin-bottom: 70px;
-    max-width: 860px;
-  }
-  .business-tools .business-container .payment .payment-img {
-    display: none;
-  }
-  .business-tools .business-container .payment div .invoices, .business-tools .business-container .payment div .payment-links {
-    box-sizing: border-box;
-    display: block;
-    padding: 0;
-    margin-bottom: 60px;
-  }
-  .business-tools .business-container .payment div .invoices h2, .business-tools .business-container .payment div .payment-links h2 {
-    padding-left: 5px;
-    margin-bottom: 19px;
-    line-height: 29px;
-    font-weight: 600;
-    font-size: 24px;
-    font-family: moderat, sans-serif;
-    color: rgb(5, 5, 5);
-  }
-  .business-tools .business-container .payment div .invoices p, .business-tools .business-container .payment div .payment-links p {
-    padding-left: 5px;
-    margin-bottom: 30px;
-    line-height: 32px;
-    font-weight: 300;
-    font-size: 20px;
-    font-family: moderat-light;
-  }
-  .business-tools .business-container .payment div .invoices button, .business-tools .business-container .payment div .payment-links button {
-    padding: 4px 5px;
-    font-weight: 500;
-    font-size: 16px;
-    font-family: moderat, sans-serif;
-    color: rgb(251, 78, 32);
-    cursor: pointer;
-    border: none;
-    height: 19px;
-    background-color: rgba(0, 0, 0, 0);
-  }
-  .business-tools .business-container .payment div .invoices button img, .business-tools .business-container .payment div .payment-links button img {
-    padding: 0;
-    margin: 10px 10px 0 9px;
-    width: 24px;
-    height: 22px;
-    position: relative;
-    top: 5px;
-  }
-  .business-tools .business-container .payment .no-content {
-    padding: 0;
-    margin: 0;
-    max-width: 860px;
-    height: 66px;
-    background-color: rgb(241, 241, 241);
-  }
-  .business-tools .business-container .tools-sec {
-    max-width: 1092px;
-  }
-  .business-tools .business-container .tools-sec p {
-    display: block;
-    padding: 0;
-    margin-bottom: 45px;
-    line-height: 80px;
-    font-weight: 300;
-    font-size: 50px;
-    font-family: moderat-light;
-    color: rgb(29, 29, 29);
-  }
-  .business-tools .business-container .tools-sec p span {
-    color: #35a169;
-  }
-  .business-tools .business-container .tools-sec button {
-    margin: 0;
-    padding: 28px 32px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: moderat, sans-serif;
-    color: #fff;
-    background-color: rgb(10, 14, 39);
-    border-radius: 10px;
-    border-style: none;
-    cursor: pointer;
-  }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   header {
     width: 100%;
     height: 10%;
@@ -2061,8 +1796,9 @@ footer .copyright_policy ul li a:hover {
 }
 @media (max-width: 900px) {
   footer {
-    width: 95%;
-    margin-left: 2.5%;
+    outline: 1px solid red;
+    width: 98%;
+    margin-left: 1%;
   }
   footer .footer-links {
     display: block;
@@ -2078,8 +1814,8 @@ footer .copyright_policy ul li a:hover {
   footer .footer-links .important_details {
     border-top: 1px solid whitesmoke;
     border-bottom: 1px solid whitesmoke;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 96%;
+    margin-left: 2%;
     padding: 30px 0px 30px 0px;
   }
   footer .footer-links .important_details ul {
@@ -2104,6 +1840,8 @@ footer .copyright_policy ul li a:hover {
     display: flex;
     align-items: center;
     position: relative;
+    width: 98%;
+    margin-left: 1%;
   }
   footer .footer-links .important_details .footer_heading::after {
     content: "\f078";
@@ -2111,7 +1849,7 @@ footer .copyright_policy ul li a:hover {
     font-size: 13px;
     font-weight: bold;
     position: absolute;
-    right: 3px;
+    left: 99%;
   }
   footer .footer-links .important_details .footer_heading.active::after {
     transform: rotate(180deg);
@@ -2120,7 +1858,8 @@ footer .copyright_policy ul li a:hover {
     display: block;
   }
   footer .footer-links .country-button {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
   footer .footer-links .country-button .count-flag .trial .about-countries {
     display: grid;
@@ -2130,7 +1869,7 @@ footer .copyright_policy ul li a:hover {
     display: block;
     border: none;
     margin-top: -80px;
-    margin: -80px 0px -30px 0px;
+    margin: -80px 0px -30px 10px;
   }
   footer .countries_medialinks .medialinks {
     display: none;
@@ -2138,8 +1877,8 @@ footer .copyright_policy ul li a:hover {
   footer .countries_medialinks .important_details {
     border-top: 1px solid whitesmoke;
     border-bottom: 1px solid whitesmoke;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 98%;
+    margin-left: 1%;
     display: block;
     padding: 30px 0px 30px 0px;
   }
