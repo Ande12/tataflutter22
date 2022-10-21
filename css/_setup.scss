@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$header-width: 1349px;
+$header-height: 77px;
+$header-padding: 30px 20px 0px;
+$header-svg-width: 185px;
+$header-svg-height: 44.05px;
+$header-nav-line-font-size: 15px;
+$header-nav-line-hover-color: #00abab;
+$header-nav-line-font-family: moderat-medium, sans-serif;
+$header-nav-line-color: #262c55;
+$header-nav-line-padding: 10px 12px;
+$header-nav-bar-width: 1092px;
+$header-nav-bar-height: 47px;
+$header-nav-bar-margin: 0px 108.5px;
+$header-nav-button-font: 14px moderat-light, sans-serif;
+$header-nav-button-background: #EEEEEE;
+$header-nav-button-padding: 15px 50px;
+$header-nav-button-color: #000000;
+$header-nav-button-hover-color: #0a0e27;
+$header-nav-button-border-radius: 16px;
+$header-nav-link-icon-width: 42px;
+$dropdown-width: 330px;
+$dropdown-height: 282px;
+$dropdown-item-1-info-width: 234px;
+$dropdown-item-1-info-height: 41px;
+$section-1-height: 699px;
+$section-1-padding: 90px 20px;
+$section-1-info-width: 750px;
+$section-1-info-height: 519px;
+$section-1-info-h4-span-color: #fb9129;
+$section-1-info-h4-font:100px milik, sans-serif;
+$section-1-info-p-size: 22px;
+$section-1-info-p-family: moderat-light;
+    
+
+// baleeeeee
+// font-family
+$headingFont: milik, sans-serif;
+$generalFont: moderat-light;
+// M and P
+$lineHeight: 29px, 110px;
+$sectionMargin: 20px, 100px;
+// colors
+$bgColor: rgb(5, 5, 5);
+$headingFontColor: rgb(5, 5, 5);
+$textColor: #222222d0;
+$businessToolBgColor: #69666615;
+$headingSpanGreen: #35a169;
+$headingSpanOrange: #fb9129;
+$toolsSecBtnBgColor : #010527e1;
+$generalFontColor : #ffff;
+$acceptPayBtnColor : #fb4e20;
+
+//  variables
+// font-family
+$myHOneFontFamily:'STIX-Two-Text', serif;
+$myFontFamily: 'Montserrat', sans-serif;
+// M and P
+$lineHeight: 29px, 110px;
+$myMargin: 20px, 100px;
+$myFontStyle: normal;
+// colors
+$myBlack: rgb(5, 5, 5);
+$myGrey: #222222d0;
+$myGreen: #35a169;
+$myOrange: #fb9129;
+$myBlue : #010527e1;
+$myWhite : #ffff;
+$myPink : #fb4e20;

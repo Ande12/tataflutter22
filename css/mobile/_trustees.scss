@@ -1,0 +1,33 @@
+.trustees{
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 10% 0;
+
+    .million{
+        padding-left: 0px;
+        font-family: moderat-regular;
+        font-size: 20px;
+        margin: 0px 0px 20px;
+        color: #1d1d1d;
+    }
+    .partner-icon{
+        padding-left: 0px;
+        max-width: 100%;
+
+        img{
+            width: 17%;
+            padding-right: 6%;
+        }
+        .mtn{
+            width: 18%;
+        }
+        .wise{
+            width: 18%;
+        }
+
+        .chipper, .piggyvest, .microsoft{
+            width: 27%;
+            height: 10%;
+        }
+    }
+}

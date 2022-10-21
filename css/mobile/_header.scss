@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    height: 10%;
+    // padding: 10px;
+
+    .header-nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 99%;
+        // height: 21px;
+        margin-left: 0.5%;
+        
+
+        .nav-bar-left {
+            @include listStyle;
+           width:0px;
+            a {
+                // @include textDecoration;
+                
+               
+                svg {
+                    height: $header-svg-height;
+                    width: $header-svg-width;
+                   
+
+                }
+            }
+        }
+        nav{
+            display: none;
+        }
+        button{
+            display: none;
+        }
+        .burgers{
+            display: block;
+            cursor: pointer;
+            .firstbar, .secondbar{
+                border: 1px solid $header-nav-line-color;
+                border-radius: 3px;
+                width: 28px;
+                margin-bottom: 6px;
+                box-shadow: 2px 2px 12px 3px rgba(128, 128, 128, 0.124);
+
+            }
+        }
+    }
+}         

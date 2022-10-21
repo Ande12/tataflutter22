@@ -1,0 +1,430 @@
+// .business-tools{
+//     display: block;
+//     box-sizing: border-box;
+//     padding: 160px 20px;
+//     background-color: rgb(248, 250, 253);
+
+//     .business-container{
+//         display: block;
+//         @include container(90%, 5%);
+//         padding-left: -50px;
+//         margin-bottom: 16px;
+//         // border: 2px solid red;
+
+//         h1{
+//             // border: 2px solid red;
+//             padding: 0;
+//             margin-bottom: 108px;
+          
+//         @include container(98%, 1%);
+//             line-height:1.6;
+//             letter-spacing: -1.5px;
+//             font-size: 50px;
+//             font-weight: 500;
+//             font-family: milik, sans-serif;
+
+//             span{
+//                 color: $headingSpanGreen;
+//             }
+//         }
+
+//         .store{
+//             padding: 0;
+//             margin: 0;
+//             max-width: 860px;
+//             margin-bottom: 60px;
+
+//             .store-cont{
+//                 margin-bottom: 60px;
+//                 // border: 2px solid red;
+//                 h2{
+//                     // border: 2px solid red;
+//                     padding-left: 5px;
+//                     margin-bottom: 16px;
+//                     line-height: 29px;
+//                     font-weight: 600;
+//                     font-size: 24px;
+//                     font-family: moderat, sans-serif;
+//                 }
+
+//                 p{
+//                     // border: 2px solid red;
+//                     padding-left: 5px;
+//                     margin-bottom: 30px;
+//                     line-height: 32px;
+//                     font-weight: 300;
+//                     font-size: 20px;
+//                     font-family: $generalFont;
+//                 }
+
+//                 button{
+//                     margin: 0;
+//                     padding: 15px 25px;
+//                     // width: 123.95px;
+//                     height: 50px;
+//                     text-align: center;
+//                     font-size: 14px;
+//                     font-weight: 500;
+//                     font-family: moderat, sans-serif;
+//                     color: #fff;
+//                     background-color: rgb(10, 14, 39);
+//                     border-radius: 10px;
+//                     border-style: none;
+//                     cursor: pointer;
+//                 }
+//             }
+//             .store-img{
+//                 // border: 2px solid red;
+//                 padding: 0;
+//                 margin: 0;
+//                 max-width: 860px;
+//                 height: 22px;
+//                 background-color: rgb(241, 241, 241);
+//             }
+//         }
+
+//         .payment{
+//             // border: 2px solid red;
+//             box-sizing: border-box;
+//             display: block;
+//             padding: 0;
+//             margin-bottom: 70px;
+//             max-width: 860px;
+
+//             .payment-img{
+//                 display: none;
+//             }
+
+//             div{
+
+//                 .invoices, .payment-links{
+//                     box-sizing: border-box;
+//                     display: block;
+//                     padding: 0;
+//                     margin-bottom: 60px;
+//                     // border: 2px solid rgb(20, 20, 20);
+
+//                     h2{
+//                         // border: 2px solid rgb(0, 17, 255);
+//                         padding-left: 5px;
+//                         margin-bottom: 19px;
+//                         line-height: 29px;
+//                         font-weight: 600;
+//                         font-size: 24px;
+//                         font-family: moderat, sans-serif;
+//                         color: rgb(5, 5, 5);
+//                     }
+
+//                     p{
+//                         // border: 2px solid rgb(8, 247, 68);
+//                         padding-left: 5px;
+//                         margin-bottom: 30px;
+//                         line-height: 32px;
+//                         font-weight: 300;
+//                         font-size: 20px;
+//                         font-family: $generalFont;
+//                     }
+
+//                     button{
+//                         padding: 4px 5px;
+//                         font-weight: 500;
+//                         font-size: 16px;
+//                         font-family: moderat, sans-serif;
+//                         color: rgb(251, 78, 32);
+//                         cursor: pointer;
+//                         border: none;
+//                         height: 19px;
+//                         background-color: rgba(0, 0, 0, 0.123);
+
+//                         img{
+//                             padding:0;
+//                             margin: 10px 10px 0 9px ;
+//                             width: 24px;
+//                             height: 22px;
+//                             position: relative;
+//                             top: 5px;
+
+//                         }
+//                     }
+//                 }
+
+//             }
+//             .no-content{
+//                 padding: 0;
+//                 margin: 0;
+//                 max-width: 860px;
+//                 height: 66px;
+//                 background-color: rgb(241, 241, 241);
+//             }
+
+//         }
+
+//         .tools-sec{
+//             max-width: 1092px;
+//             p{
+//                 display: block;
+//                 padding: 0;
+//                 margin-bottom: 45px;
+//                 line-height: 80px;
+//                 font-weight: 300;
+//                 font-size: 50px;
+//                 font-family: $generalFont;
+//                 color: rgb(29, 29, 29);
+
+//                 span{
+//                     color: $headingSpanGreen;
+//                 }
+//             }
+
+//             button{
+//                 margin: 0;
+//                 padding: 28px 32px;
+//                 // width: 138.95px;
+//                 text-align: center;
+//                 font-size: 16px;
+//                 font-weight: 500;
+//                 font-family: moderat, sans-serif;
+//                 color: #fff;
+//                 background-color: rgb(10, 14, 39);
+//                 border-radius: 10px;
+//                 border-style: none;
+//                 cursor: pointer;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+.business-tools{
+    // overflow: hidden;
+    // border: 2px solid rgb(247, 0, 255);
+    display: block;
+    box-sizing: border-box;
+    padding: 160px 20px;
+    background-color: rgb(248, 250, 253);
+
+    .business-container{
+        display: block;
+        max-width: 1092px;
+        // padding-left: 5px;
+        margin-bottom: 16px;
+        // border: 2px solid red;
+
+        h1{
+            // border: 2px solid red;
+            padding: 0;
+            margin-bottom: 108px;
+            max-width: 1087px;
+            line-height: 56px;
+            letter-spacing: -1.5px;
+            font-size: 50px;
+            font-weight: 500;
+            font-family: milik, sans-serif;
+
+            span{
+                color: $headingSpanGreen;
+            }
+        }
+
+        .business-contain{
+            display: block;
+            // border: 4px solid red;
+            max-width: 860px;
+            width: 860px;
+
+            .store{
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                margin: 0;
+                max-width: 860px;
+                width: 855px;
+                // height: 400px;
+                margin-bottom: 60px;
+                // border: 3px solid green;
+    
+                .store-cont{
+                    margin-bottom: 60px;
+                    // border: 2px solid red;
+                    h2{
+                        // border: 2px solid red;
+                        padding-left: 5px;
+                        margin-bottom: 16px;
+                        line-height: 29px;
+                        font-weight: 600;
+                        font-size: 24px;
+                        font-family: moderat, sans-serif;
+                    }
+    
+                    p{
+                        // border: 2px solid red;
+                        padding-left: 5px;
+                        margin-bottom: 30px;
+                        line-height: 32px;
+                        font-weight: 300;
+                        font-size: 20px;
+                        font-family: $generalFont;
+                    }
+    
+                    button{
+                        margin: 0;
+                        padding: 15px 25px;
+                        // width: 123.95px;
+                        height: 50px;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-family: moderat, sans-serif;
+                        color: #fff;
+                        background-color: rgb(10, 14, 39);
+                        border-radius: 10px;
+                        border-style: none;
+                        cursor: pointer;
+                    }
+                }
+                .store-img{
+                    // border: 2px solid red;
+                    // display: none;
+                    padding: 0;
+                    margin: 0;
+                    max-width: 860px;
+                    width: 753px;
+                    height: 873.328px;
+                    background-color: rgb(241, 241, 241);
+                    background-image: url(/images/yanga-beauty.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    object-fit: cover;
+                }
+            }
+    
+            .payment{
+                // border: 2px solid red;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 0;
+                margin-bottom: 70px;
+                max-width: 860px;
+    
+                .payment-img{
+                    // display: none;
+                    padding: 0;
+                    margin: 0;
+                    width: 633.359;
+                    height: 756px;
+                    background-image: url(/images/Annotation\ 2022-09-12\ 050313.png);
+                    background-repeat: no-repeat;
+                    object-fit: cover;
+                    // border: 2px solid red;
+                }
+                p{
+                    // display: none;
+                    padding: 0;
+                    margin-top: 21px;
+                    max-width: 633px;
+                    line-height: 20px;
+                    font-size: 16px;
+                    font-family: $generalFont;
+                    text-align: center;
+                    align-content: center;
+
+                    span{
+                        color: $headingSpanGreen;
+                    }
+                }
+    
+                div{
+    
+                    .invoices, .payment-links{
+                        box-sizing: border-box;
+                        display: block;
+                        padding: 0;
+                        margin-bottom: 60px;
+                        // border: 2px solid rgb(20, 20, 20);
+    
+                        h2{
+                            // border: 2px solid rgb(0, 17, 255);
+                            padding-left: 5px;
+                            margin-bottom: 19px;
+                            line-height: 29px;
+                            font-weight: 600;
+                            font-size: 24px;
+                            font-family: moderat, sans-serif;
+                            color: rgb(5, 5, 5);
+                        }
+    
+                        p{
+                            // border: 2px solid rgb(8, 247, 68);
+                            padding-left: 5px;
+                            margin-bottom: 30px;
+                            line-height: 32px;
+                            font-weight: 300;
+                            font-size: 20px;
+                            font-family: $generalFont;
+                            text-align: left;
+                        }
+    
+                        button{
+                            padding: 4px 5px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            font-family: moderat, sans-serif;
+                            color: rgb(251, 78, 32);
+                            cursor: pointer;
+                            border: none;
+                            height: 19px;
+                            background-color: rgb(0, 0, 0, 0);
+    
+                            img{
+                                padding:0;
+                                margin: 10px 10px 0 9px ;
+                                width: 24px;
+                                height: 22px;
+                                position: relative;
+                                top: 5px;
+    
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+
+        .tools-sec{
+            max-width: 1092px;
+            p{
+                display: block;
+                padding: 0;
+                margin-bottom: 45px;
+                line-height: 80px;
+                font-weight: 300;
+                font-size: 50px;
+                font-family: $generalFont;
+                color: rgb(29, 29, 29);
+
+                span{
+                    color: $headingSpanGreen;
+                }
+            }
+
+            button{
+                margin: 0;
+                padding: 28px 30px;
+                // width: 158.95px;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: moderat, sans-serif;
+                color: #fff;
+                background-color: rgb(10, 14, 39);
+                border-radius: 10px;
+                border-style: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

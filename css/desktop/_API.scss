@@ -1,0 +1,63 @@
+.documented_API {
+    padding: 160px 128.5px;
+
+
+    h3 {
+        font-size: 80px;
+        margin-top: 150px;
+        font-family: milik;
+        margin: 0px 0px 40px;
+        font-weight: 500;
+        line-height: 86px;
+        color: #1d1d1d;
+
+        span {
+            color: #eb7da7;
+        }
+    }
+
+    p {
+        width: 58%;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 50px;
+        color: #1d1d1d;
+        font-family: moderat-light;
+        margin: 0px 0px 40px;
+    }
+
+    ul {
+
+        li {
+            padding: 0px;
+            line-height: 26px;
+            margin-bottom: 28px;
+            list-style: none;
+            display: flex;
+            column-gap: 1%;
+            .bullet{
+                    width: 2%;
+                    background-color: #262c55;
+                    border-radius: 70%;
+                    margin: 6px 0px 8px 0px;
+                }
+            .bullet-text{
+            font-family: moderat-light;
+            font-size: 18px;
+            color: #1d1d1d;
+            font-weight: 300;
+            }
+        }
+    }
+
+    button {
+        margin-top: 30px;
+        color: #fff;
+        background: #262c55;
+        padding: 26px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        border: none;
+    }
+
+}

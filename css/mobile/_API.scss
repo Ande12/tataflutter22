@@ -1,0 +1,65 @@
+.documented_API {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+
+    h3 {
+        font-size: 33px;
+        margin-top: 0px;
+        font-family: milik;
+        margin: 0px 0px 0px;
+        font-weight: 500;
+        line-height: 1.25;
+        color: #1d1d1d;
+        width: 100%;
+
+        span {
+            color: #eb7da7;
+        }
+    }
+
+    p {
+        width: 100%;
+        font-size: 17px;
+        line-height: 1.5;
+        color: #1d1d1d;
+        font-family: moderat-light;
+        margin: 6% 0%;
+    }
+
+    ul {
+
+        li {
+            padding: 0px;
+            line-height: 1.5;
+            margin-bottom: 5%;
+            list-style: none;
+            display: flex;
+            column-gap: 2%;
+            .bullet{
+                    width: 4%;
+                    background-color: #262c55;
+                    border-radius: 70%;
+                    margin: 8px 0px 8px 0px;
+                }
+            .bullet-text{
+            font-family: moderat-light;
+            font-size: 18px;
+            color: #1d1d1d;
+            font-weight: 300;
+            }
+        }
+    }
+
+    button {
+        margin-top: 40px;
+        color: #fff;
+        background: #262c55;
+        padding: 23px 27px;
+        border-radius: 15px;
+        font-size: 14px;
+        border: none;
+    }
+
+}

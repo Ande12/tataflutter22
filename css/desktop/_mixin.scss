@@ -1,0 +1,48 @@
+
+// Mixin
+@mixin headingOne {
+    font-family: $myHOneFontFamily;
+    font-style: $myFontStyle;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 90px;
+    margin: 30px 130px 30px;
+
+}
+
+@mixin smallHeading{
+    font-family: $myFontFamily;
+    font-size: 29px;
+    font-style: $myFontStyle;
+    font-weight: 600;
+    line-height: 29px;
+    color: $myBlack;
+    margin: 110px 130px 30px ;
+    // border: 1px solid black;
+}
+
+@mixin pText($fontSize, $color , $lineHeight) {
+    margin: 30px 130px;
+    font-family: $myFontFamily;
+    font-weight: 300;
+    // font-size: 24px;
+    font-style: $myFontStyle;
+    font-size:$fontSize;
+    color: $myGrey;
+    line-height: $lineHeight;
+    // border: 1px solid black;
+}
+
+@mixin button {
+    width: 48%;
+    font-family: $myFontFamily;
+    font-size: 18px;
+    font-style: $myFontStyle;
+    font-weight: 500;
+    line-height: 19px;
+    // margin: 100px;
+}
+@mixin container($width, $margin-left){
+    width:$width;
+    margin-left:$margin-left;
+}

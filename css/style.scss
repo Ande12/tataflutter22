@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: moderat-light;
+    src: url("../fonts/Moderat-Light.716cf7f.ttf");
+}
+@font-face {
+    font-family: moderat-regular;
+    src: url("../fonts/Moderat-Regular.a2f5d8f.ttf");
+}
+@font-face {
+    font-family: moderat-medium;
+    src: url("../fonts/Moderat-Medium.9a1678a.ttf");
+}
+@font-face {
+    font-family: milik;
+    src: url("../fonts/Millik.c3f91cb.ttf");
+}
+@font-face {
+    font-family: moderat-bold;
+    src: url("../fonts/Moderat-Bold.aef2636.ttf");
+}
+@font-face {
+    font-family: mono-regular;
+    src: url("../fonts/IBMPlex-Mono-Regular.2ec3664.ttf");
+}
+
+@mixin textDecoration {
+    text-decoration: none;
+}
+@mixin listStyle {
+    list-style: none;
+}
+@mixin fontStyle {
+    font-size: $header-nav-line-font-size;
+    font-family: $header-nav-line-font-family;
+    color: $header-nav-line-color;
+    padding: $header-nav-line-padding;
+    font-weight: 500;
+}
+
+@import './setup';
+@import './desktop/mixin';
+
+// desktop-size
+@import './desktop/header';
+@import './desktop/endless';
+@import './desktop/abt-partners';
+// bale
+// @import './desktop/section';
+// tracy
+@import './desktop/trustees';
+@import './desktop/API';
+@import './desktop/global';
+@import './desktop/footer';
+
+//nnn
+// @media (max-width: 1361px){
+
+//     @import './small-laptop/section-unified';
+//     @import './small-laptop/section-business-tools';
+// }
+// small laptop screen
+@media (max-width: 1200px){
+
+    @import './small-laptop/section-unified';
+    @import './small-laptop/section-business-tools';
+}
+
+
+// @import './mobile/mobile_nav'; //max-width:900px this file was imported by Billy for the responsive navigation on mobile and tablet
+@media (max-width:900px){
+    @import './mobile/footer'; //this file was imported by Billy
+    @import './mobile/mobile_nav'; 
+    @import './tablet/tabletBody';
+    @import './tablet/tabletHeader';
+    //Bale
+    @import './tablet/section-unified';
+    @import './tablet/section-business-tools';
+}
+@media (max-width: 750px){
+    @import './tablet/tablet750px';
+}
+@media (max-width: 600px) {
+    // // body{
+    // //     overflow-x: hidden;
+    // // }
+    @import './mobile/header';
+    @import './mobile/endless';
+    @import './mobile/abt-partners';
+    @import './mobile/trustees';
+    @import './mobile/API';
+    @import './mobile/global';
+    //Bale
+    @import './mobile/section-unified';
+    @import './mobile/section-business-tools';
+}
+
