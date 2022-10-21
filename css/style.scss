@@ -47,6 +47,8 @@
 @import './desktop/abt-partners';
 // bale
 // @import './desktop/section';
+// @import './desktop/section-unified';
+// @import './desktop/section-business-tool';
 // tracy
 @import './desktop/trustees';
 @import './desktop/API';
@@ -78,6 +80,7 @@
     //Bale
     @import './tablet/section-unified';
     @import './tablet/section-business-tools';
+    @import './tablet/card-demo';
 }
 @media (max-width: 600px) {
     body{
@@ -92,5 +95,6 @@
     //Bale
     @import './mobile/section-unified';
     @import './mobile/section-business-tools';
+    @import './mobile/card-demo';
 }
 

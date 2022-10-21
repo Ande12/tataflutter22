@@ -261,7 +261,7 @@
     .business-container{
         display: block;
         // max-width: 1092px;
-        // padding-left: 5px;
+        padding: 0 175.5px;
         margin-bottom: 16px;
         // border: 2px solid red;
 
@@ -269,10 +269,10 @@
             // border: 2px solid red;
             padding: 0;
             margin-bottom: 108px;
-            width: 90%;
-            line-height: 56px;
+            max-width: 1087px;
+            line-height: 86px;
             letter-spacing: -1.5px;
-            font-size: 50px;
+            font-size: 80px;
             font-weight: 500;
             font-family: milik, sans-serif;
 
@@ -283,20 +283,22 @@
 
         .store{
             display: flex;
+            justify-content: flex-end;
             padding: 0;
             margin: 0;
-            width: 100%;
-            margin-bottom: 60px;
+            // width: 100%;
+            // margin-bottom: 60px;
 
             .store-cont{
                 margin-bottom: 60px;
-                padding-top: 50px;
-                width: 70%;
+                margin-right: 80px;
+                padding: 150px 0 0;
+                width: 350px;
                 // border: 2px solid red;
                 h2{
                     // border: 2px solid red;
                     padding-left: 5px;
-                    margin-bottom: 16px;
+                    margin-bottom: 19px;
                     line-height: 29px;
                     font-weight: 600;
                     font-size: 24px;
@@ -316,7 +318,7 @@
                 button{
                     margin: 0;
                     padding: 15px 25px;
-                    // width: 123.95px;
+                    width: 123.95px;
                     height: 50px;
                     text-align: center;
                     font-size: 14px;
@@ -332,40 +334,41 @@
             .store-img{
                 padding: 0;
                 margin: 0;
-                width: 100%;
-                // height: 100%;
+                width: 956.906px;
+                height: 650px;
                 background-color: rgb(241, 241, 241);
                 // background-image: url(/images/yanga-beauty.png);
                 // background-repeat: no-repeat;
                 // object-fit: cover;
 
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
+                // img{
+                //     width: 100%;
+                //     // height: 120%;
+                // }
             }
-            height: 100%;
+            // height: 100%;
         }
 
         .payment{
             // border: 2px solid red;
-            box-sizing: border-box;
+            // box-sizing: border-box;
             display: flex;
-            justify-content: space-between;
-            // flex-direction: column-reverse;
+            justify-content: flex-start;
+            flex-direction: row;
             padding: 0;
             margin-bottom: 70px;
             margin-top: 30px;
-            width: 100%;
+            // position: relative;
+            // width: 100%;
 
             .pay-img{
-                width: 100%;
-                height: 700px;
+                // width: 100%;
+                // height: 700px;
                 // border:  2px solid red;
                 .payment-img{
                     // display: block;
-                    width: 100%;
-                    height: 665px;
+                    width: 633.359px;
+                    height: 648px;
                     background-image: url(/images/Annotation\ 2022-09-12\ 050313.png);
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -383,14 +386,20 @@
             }
 
             div{
-                width: 90%;
+                // margin-top: 80px;
+                // padding-top: 180px;
+                .invoices{
+                    margin-top: 180px;
+                    margin-left: 200px;
+                }
                 .invoices, .payment-links{
+                    width: 320px;
                     box-sizing: border-box;
                     display: block;
                     padding: 0;
                     margin-bottom: 60px;
                     // border: 2px solid rgb(20, 20, 20);
-
+                    margin-left: 200px;
                     h2{
                         // border: 2px solid rgb(0, 17, 255);
                         padding-left: 5px;
@@ -444,14 +453,14 @@
         }
 
         .tools-sec{
-            width: 100%;
+            width: 1098px;
             p{
                 display: block;
                 padding: 0;
-                margin-bottom: 45px;
-                line-height: 80px;
+                margin-bottom: 48px;
+                line-height: 110px;
                 font-weight: 300;
-                font-size: 50px;
+                font-size: 80px;
                 font-family: $generalFont;
                 color: rgb(29, 29, 29);
 

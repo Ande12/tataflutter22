@@ -1,296 +1,389 @@
-// // .sectionContainer{
-// //     .sectionUnified{
-// //         h1{
-// //             @include headingOne;
-// //             color: $color;
-// //         }
-// //         span{
-// //             color: $myOrange;
-// //             }
-// //         }
-
-// //     .sectionPay{
-// //         display: flex;
-// //         width: 100%;
-// //         margin: 0 auto;
-// //         .sectionCheckout, .acceptPayment, .transferPayment{
-// //             button{
-// //                 @include button;
-// //                 color: $myBlue
-// //                 }
-            
-// //             h1{
-// //                 @include smallHeading;
-// //             }
-            
-// //             p{
-// //                 @include pText(20px,  $myBlack, $lineHeight)
-// //             }
-// //         }
-// //         }
-// //             .sectionImg{
-// //                 width: 400px;
-
-// //                 .checkoutImg{
-// //                     width: 400px;
-// //                 }
-// //             }
-// //             .sectionPayment{
-// //                 margin: 20px;
-// //             }
-// //         .acceptPayment{
-// //             .learnMore{
-// //                 @include button;
-// //                 color: $myOrange;
-// //             }
-// //         }
-// //         .transferPayment{
-// //             .learnMore{
-// //                 @include button;
-// //                 color: $myOrange;
-// //             }
-// //         }
-    
-// // }
-
-
 // .sectionContainer{
-
 //     .sectionUnified{
 //         h1{
 //             @include headingOne;
-//             color: $myBlack;
+//             color: $color;
 //         }
 //         span{
 //             color: $myOrange;
+//             }
 //         }
-//     }
 
 //     .sectionPay{
 //         display: flex;
 //         width: 100%;
 //         margin: 0 auto;
-        
-        
-//         .sectionCheckout, .acceptPayment, .transferPayment{      
-//             h1{
-//             @include smallHeading;
-//             }
-                        
-//             p{
-//             @include pText(20px,  $myBlack, $lineHeight)
-//             }
-//             // button{
-//             // @include button;
-//             // color: $myBlue;
-//             // }
-//         }
-//         .sectionCheckout{
-//             h1{          
-//                 @include smallHeading;
-//             }    
-//             p{
-//                 @include pText(20px, $myBlack, $lineHeight);
-
-//                 button{
-//                     @include button;
-//                     width: 40%;
-//                     color: $myWhite;
-//                     border: none;
-//                     background-color: $myBlack;
-//                     height: 75px;
-//                     border-radius: 15px;
-//                     margin-top: 60px;
-//                     outline: none;
-//                 }
-//             }
-        
-//         }
-        
-        
-//         // .sectionCheckout{  
-//         .sectionImg{
-//             width: 400px;
-//             border-radius: 5px;
-            
-//         }
-//         .checkoutImg{
-//         width: 400px;
-//         box-shadow: 3px 4px 25px 5px rgba(158, 155, 155, 0.315);
-//         border-radius: 40px;
-//         }
-
-//         // SectionPayment
-//         .sectionPayment{
-//             .acceptPayment, .transferPayment{
-//                 p{
-//                     button{
-//                         @include button;
-//                         color: $myOrange;
-//                         border: none;
-//                         background-color: $myWhite;
-//                         height: 80px;
-
-//                         img{
-//                             height: 35px;
-//                             position: relative;
-//                             top: 10px;
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//     }
-//     .businessTools{
-//         background-color: #998e8e18;
-//         h1{
-//             @include headingOne;
-//             margin-top: 200px;
-//             padding-top: 210px;
-//             // font-size: 100px;
-//             span{
-//                 color: $myGreen;
-//             }
-//         }
-
-//         .businessContain{
-
-//             .store{
-//                 display: flex;
-//                 width: 90%;
-//                 margin: 0 auto;
-            
-                
-//                 .storeImg{
-//                     width: 100%;
-//                     height: 780px;
-//                     img{
-//                         width: 100%;
-//                         height: 780px;
-//                     }
-//                 }
-//                 .storeCont{
-                    
-//                         button{
-//                             @include button;
-//                             width: 28%;
-//                             color: $myWhite;
-//                             border: none;
-//                             background-color: $myBlack;
-//                             height: 75px;
-//                             border-radius: 15px;
-//                             margin-top: 60px;
-//                             margin-left: 120px;
-//                             outline: none;
-//                         }
-//                 }
-//             }
-
-//                 .storeCont, .begin, .paymentLinks{
-//                     // border: 1px solid black;
-//                     h2{
-//                         @include smallHeading;
-//                     }
-                    
-//                     p{
-//                         @include pText(20px,  $myBlack, $lineHeight)
-//                     }
-//                 }
-//         }
-        
-//         .payment{
-//             display: flex;
-//             width: 90%;
-//             margin: 0 auto;
-
-//                 .paymentImg{
-//                     width: 95%;
-//                     height: 870px;
-//                     // margin-left: 10%;
-//                     // border: 1px solid red;
-
-//                     img{
-//                         width: 95%;
-//                         height: 870px;
-//                         margin-left: 5%;
-//                         position: relative;
-//                         bottom: 13%;
-//                     }
-//                 }
-
-//                 div{
-//                     .begin, .paymentLinks{
-
-//                             button{
-//                                 margin-left: 13%;
-//                                 margin-top: 5%;
-//                                 @include button;
-//                                 color: $myOrange;
-//                                 width: 32%;
-//                                 border: none;
-//                                 background-color:#998e8e00;
-//                                 // height: 0px;
-        
-//                                 img{
-//                                     height: 35px;
-//                                     position: relative;
-//                                     top: 10px;
-//                                     // background-color: #998e8e17;
-//                                 }
-//                             }
-//                         }
-//                 }
-//         }
-
-//         .toolsSec{
-//             p{
-//                 @include pText(100px,  $myBlack, 110px);
-//                 font-weight: 300;
-//                 opacity: 1;
-//             }
+//         .sectionCheckout, .acceptPayment, .transferPayment{
 //             button{
 //                 @include button;
-//                 width: 15%;
-//                 color: $myWhite;
-//                 border: none;
-//                 background-color: $myBlue;
-//                 height: 95px;
-//                 border-radius: 15px;
-//                 margin: 60px 120px ;
-//                 // margin-left: 120px;
-//                 outline: none;
+//                 color: $myBlue
+//                 }
+            
+//             h1{
+//                 @include smallHeading;
+//             }
+            
+//             p{
+//                 @include pText(20px,  $myBlack, $lineHeight)
+//             }
+//         }
+//         }
+//             .sectionImg{
+//                 width: 400px;
+
+//                 .checkoutImg{
+//                     width: 400px;
+//                 }
+//             }
+//             .sectionPayment{
+//                 margin: 20px;
+//             }
+//         .acceptPayment{
+//             .learnMore{
+//                 @include button;
+//                 color: $myOrange;
+//             }
+//         }
+//         .transferPayment{
+//             .learnMore{
+//                 @include button;
+//                 color: $myOrange;
 //             }
 //         }
     
-//     }
-
-//     .virtualCards{
-//         background-color: $myBlack;
-//         h1{
-//             @include headingOne;
-//             text-align: center;
-//             color: #fff;
-
-//             span{
-//                 color:#6672c7;
-//             }
-//         }
-//         p{
-//             @include pText(20px, #fff, 36px);
-//             text-align: center;
-//             color: #fff;
-//         }
-//         button{
-//             @include button;
-//             width: 15%;
-//             color: $myWhite;
-//             border: none;
-//             background-color: $myBlue;
-//             height: 95px;
-//             border-radius: 15px;
-//             margin: 60px 120px ;
-//             // margin-left: 120px;
-//             outline: none;
-//         }
-//     }
 // }
+
+
+.section-container{
+    display: block;
+    // width: 600px;
+    box-sizing: border-box;
+    padding: 168px 20px 160px;
+    margin: 0;
+    // border:  1px solid rgb(4, 59, 95);
+
+    .section-unified{
+        padding: 0 80px;
+        margin: 0 34px;
+        width: 100%;
+        // border:  1px solid rgb(6, 226, 255);
+
+        .main-heading{
+            max-width: 650px;
+            padding: 0;
+            margin-bottom: 58px;
+            line-height: 86px;
+            letter-spacing: -2.4px;
+            font-weight: 500;
+            font-size: 80px;
+            font-family: milik, sans-serif;
+            // border:  1px solid rgb(77, 13, 255);
+
+            span{
+                color: $headingSpanOrange;
+            }
+        }
+
+        .section-pay{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            // border: 2px solid red;
+            .section-checkout{
+                width: 25%;
+                // margin-top: 270px;
+                margin-right: 20px;
+                // border: 2px solid red;
+                h1{
+                    padding-left: 5px;
+                    margin-bottom: 19px;
+                    line-height: 29px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    font-family: moderat, sans-serif;
+                    // border:  1px solid rgb(241, 11, 241);
+                }
+
+                p{
+                    // max-width: 353.98px;
+                    padding-left: 5px;
+                    margin-bottom: 30px;
+                    line-height: 32px;
+                    font-weight: 300;
+                    font-size: 20px;
+                    font-family: $generalFont;
+                    // border:  1px solid rgb(4, 59, 95);
+                }
+
+                button{
+                    width: 121.89px;
+                    height: 50px;
+                    padding: 15px, 25px;
+                    margin-bottom: 60px;
+                    text-align: center;
+                    line-height: 20px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    font-family: moderat, sans-serif;
+                    color: #fff;
+                    cursor: pointer;
+                    background-color: rgb(10, 14, 39);
+                    border-radius: 10px;
+                    border-style: none;
+                }
+
+            }
+            .checkout-img{
+                // border:  2px solid red;
+                padding: 0;
+                margin-right: 50px;
+                // margin-left: 50px;
+                // width: 30%;
+                height: 880px;
+                border-radius: 20px;
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.315);
+                // img{
+                //     // width: 33.33%;
+                //     height: 650px;
+                //     // height: 220px;
+                // }
+            }
+
+            .section-payment{
+                display: block;
+                width: 40%;
+                // margin-left: -110px;
+                // border: 2px solid red;
+                .accept-payment{
+                    margin-bottom: 100px;
+                }
+                .accept-payment, .transfer-payment{
+                    margin: 80px 0;
+                    // border:  1px solid rgb(4, 59, 95);
+                    h1{
+                        padding-left: 5px;
+                        margin-bottom: 19px;
+                        line-height: 29px;
+                        font-weight: 600;
+                        font-size: 24px;
+                        font-family: moderat, sans-serif;
+                        // border:  1px solid rgb(251, 255, 9);
+                    }
+
+                    p{
+                        padding-left: 5px;
+                        margin-bottom: 30px;
+                        line-height: 32px;
+                        font-weight: 300;
+                        font-size: 20px;
+                        font-family: $generalFont;
+                        // border:  1px solid rgb(4, 59, 95);
+                    }
+
+                    button{
+                        padding: 4px 5px;
+                        display: block;
+                        box-sizing: border-box;
+                        font-family: Moderat, sans-serif;;
+                        // @include button;
+                        color: rgb(251, 78, 32);
+                        height: 16px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 16px;
+                        border: none;
+                        background-color: rgba(255, 255, 255, 0);
+                        cursor: pointer;
+
+                        img{
+                            height: 23px;
+                            position: relative;
+                            top: 6px;
+                            transition: transform 1s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.business-tools{
+    // 
+    display: block;
+    box-sizing: border-box;
+    padding: 160px 20px;
+    background-color: rgb(248, 250, 253);
+    // h1{
+    //     @include headingOne;
+    //     margin-top: 200px;
+    //     padding-top: 210px;
+    //     // font-size: 100px;
+    //     span{
+    //         color: $myGreen;
+    //     }
+    // }
+
+    .business-container{
+        display: block;
+        // max-width: 1092px;
+        // padding-left: 5px;
+        margin-bottom: 16px;
+        // border: 2px solid red;
+
+        h1{
+            // border: 2px solid red;
+            padding: 0;
+            margin-bottom: 108px;
+            width: 90%;
+            line-height: 56px;
+            letter-spacing: -1.5px;
+            font-size: 50px;
+            font-weight: 500;
+            font-family: milik, sans-serif;
+
+            span{
+                color: $headingSpanGreen;
+            }
+        }
+
+        .store{
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+        
+            
+            .store-img{
+                width: 100%;
+                height: 780px;
+                img{
+                    width: 100%;
+                    height: 780px;
+                }
+            }
+            .store-cont{
+                
+                    button{
+                        @include button;
+                        width: 28%;
+                        color: $myWhite;
+                        border: none;
+                        background-color: $myBlack;
+                        height: 75px;
+                        border-radius: 15px;
+                        margin-top: 60px;
+                        margin-left: 120px;
+                        outline: none;
+                    }
+            }
+        }
+
+            .storeCont, .begin, .paymentLinks{
+                // border: 1px solid black;
+                h2{
+                    @include smallHeading;
+                }
+                
+                p{
+                    @include pText(20px,  $myBlack, $lineHeight)
+                }
+            }
+    }
+    
+    .payment{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+
+            .paymentImg{
+                width: 95%;
+                height: 870px;
+                // margin-left: 10%;
+                // border: 1px solid red;
+
+                img{
+                    width: 95%;
+                    height: 870px;
+                    margin-left: 5%;
+                    position: relative;
+                    bottom: 13%;
+                }
+            }
+
+            div{
+                .begin, .paymentLinks{
+
+                        button{
+                            margin-left: 13%;
+                            margin-top: 5%;
+                            @include button;
+                            color: $myOrange;
+                            width: 32%;
+                            border: none;
+                            background-color:#998e8e00;
+                            // height: 0px;
+    
+                            img{
+                                height: 35px;
+                                position: relative;
+                                top: 10px;
+                                // background-color: #998e8e17;
+                            }
+                        }
+                    }
+            }
+    }
+
+    .toolsSec{
+        p{
+            @include pText(100px,  $myBlack, 110px);
+            font-weight: 300;
+            opacity: 1;
+        }
+        button{
+            @include button;
+            width: 15%;
+            color: $myWhite;
+            border: none;
+            background-color: $myBlue;
+            height: 95px;
+            border-radius: 15px;
+            margin: 60px 120px ;
+            // margin-left: 120px;
+            outline: none;
+        }
+    }
+
+}
+
+
+.virtualCards{
+    background-color: $myBlack;
+    h1{
+        @include headingOne;
+        text-align: center;
+        color: #fff;
+
+        span{
+            color:#6672c7;
+        }
+    }
+    p{
+        @include pText(20px, #fff, 36px);
+        text-align: center;
+        color: #fff;
+    }
+    button{
+        @include button;
+        width: 15%;
+        color: $myWhite;
+        border: none;
+        background-color: $myBlue;
+        height: 95px;
+        border-radius: 15px;
+        margin: 60px 120px ;
+        // margin-left: 120px;
+        outline: none;
+    }
+}

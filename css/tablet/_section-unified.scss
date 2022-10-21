@@ -1,4 +1,141 @@
 
+// .section-container{
+//     border: none;
+//     display: block;
+//     width: 100%;
+//     padding: 100px 20px;
+//     .section-unified{
+//         padding: 0;
+//         margin: 0;
+//         width: 100%;
+//         border: none;
+
+//         .main-heading{
+//             border: none;
+//             width: 100%;
+//             padding: 0;
+//             margin-bottom: 58px;
+//             line-height: 56px;
+//             letter-spacing: -1.5px;
+//             font-weight: 500;
+//             font-size: 50px;
+//             font-family: milik, sans-serif;
+
+//             span{
+//                 color: $headingSpanOrange;
+//             }
+//         }
+
+//         .section-pay{
+//             display: block;
+//             width: 100%;
+//             .section-checkout{
+
+//                 h1{
+//                     padding-left: 5px;
+//                     margin-bottom: 19px;
+//                     line-height: 29px;
+//                     font-weight: 600;
+//                     font-size: 24px;
+//                     font-family: moderat, sans-serif ;
+//                     border: none;
+//                 }
+
+//                 p{
+//                     border: none;
+//                     padding-left: 5px;
+//                     margin-bottom: 30px;
+//                     line-height: 32px;
+//                     font-weight: 300;
+//                     font-size: 20px;
+//                     font-family: $generalFont;
+//                 }
+
+//                 button{
+//                     width: 121.89px;
+//                     height: 50px;
+//                     padding: 15px, 25px;
+//                     margin-bottom: 60px;
+//                     text-align: center;
+//                     line-height: 20px;
+//                     font-weight: 500;
+//                     font-size: 14px;
+//                     font-family: moderat, sans-serif;
+//                     color: #fff;
+//                     cursor: pointer;
+//                     background-color: rgb(10, 14, 39);
+//                     border-radius: 10px;
+//                     border-style: none;
+//                 }
+
+//             }
+//             .checkout-img{
+//                 padding: 0;
+//                 margin: 0;
+//                 // width: 50%;
+//                 max-height: 650px;
+//                 height: 650px;
+//                 border-radius: 20px;
+//                 box-shadow: 0 4px 20px rgb(0, 0, 0, 0.2);
+//             }
+
+//             .section-payment{
+//                 border: none;
+//                 padding: 60px 0;
+//                 margin: 5px  0;
+//                 .accept-payment, .transfer-payment{
+//                     margin-bottom: 60px;
+//                     border: none;
+//                     h1{
+//                         border: none;
+//                         padding-left: 5px;
+//                         margin-bottom: 19px;
+//                         line-height: 29px;
+//                         font-weight: 600;
+//                         font-size: 24px;
+//                         font-family: moderat, sans-serif;
+//                     }
+
+//                     p{
+//                         border: none;
+//                         padding-left: 5px;
+//                         margin-bottom: 30px;
+//                         line-height: 32px;
+//                         font-weight: 300;
+//                         font-size: 20px;
+//                         font-family: $generalFont;
+//                     }
+
+//                     button{
+//                         display: block;
+//                         box-sizing: border-box;
+//                         font-family: Moderat, sans-serif;;
+//                         // @include button;
+//                         color: rgb(251, 78, 32);
+//                         height: 16px;
+//                         font-size: 18px;
+//                         font-weight: 500;
+//                         line-height: 16px;
+//                         border: none;
+//                         background-color: $generalFontColor;
+//                         cursor: pointer;
+
+//                         img{
+//                             height: 25px;
+//                             position: relative;
+//                             top: 6px;
+//                             transition: transform 1s;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+
+
 .section-container{
     border: none;
     display: block;

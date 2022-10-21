@@ -1,0 +1,145 @@
+// .section-container{
+//     display: block;
+//     // width: 600px;
+//     padding: 168px 20px 160px;
+//     margin: 0;
+//     // border:  1px solid rgb(4, 59, 95);
+
+//     .section-unified{
+//         padding: 0;
+//         margin: 0 34px;
+//         width: 100%;
+//         // border:  1px solid rgb(6, 226, 255);
+
+//         .main-heading{
+//             width: 80%;
+//             padding: 0;
+//             margin-bottom: 58px;
+//             line-height: 86px;
+//             letter-spacing: -2.4px;
+//             font-weight: 500;
+//             font-size: 80px;
+//             font-family: milik, sans-serif;
+//             // border:  1px solid rgb(77, 13, 255);
+
+//             span{
+//                 color: $headingSpanOrange;
+//             }
+//         }
+
+//         .section-pay{
+//             display: flex;
+//             justify-content: space-between;
+//             align-content: center;
+//             width: 100%;
+//             // border: 2px solid red;
+//             .section-checkout{
+//                 width: 80%;
+//                 margin-top: 100px;
+//                 margin-right: 20px;
+//                 // border: 2px solid red;
+//                 h1{
+//                     padding-left: 5px;
+//                     margin-bottom: 19px;
+//                     line-height: 29px;
+//                     font-weight: 600;
+//                     font-size: 24px;
+//                     font-family: moderat, sans-serif;
+//                     // border:  1px solid rgb(241, 11, 241);
+//                 }
+
+//                 p{
+//                     // max-width: 353.98px;
+//                     padding-left: 5px;
+//                     margin-bottom: 30px;
+//                     line-height: 32px;
+//                     font-weight: 300;
+//                     font-size: 20px;
+//                     font-family: $generalFont;
+//                     // border:  1px solid rgb(4, 59, 95);
+//                 }
+
+//                 button{
+//                     width: 121.89px;
+//                     height: 50px;
+//                     padding: 15px, 25px;
+//                     margin-bottom: 60px;
+//                     text-align: center;
+//                     line-height: 20px;
+//                     font-weight: 500;
+//                     font-size: 14px;
+//                     font-family: moderat, sans-serif;
+//                     color: #fff;
+//                     cursor: pointer;
+//                     background-color: rgb(10, 14, 39);
+//                     border-radius: 10px;
+//                     border-style: none;
+//                 }
+
+//             }
+//             .checkout-img{
+//                 padding: 0;
+//                 margin-right: 50px;
+//                 // margin-left: 50px;
+//                 width: 320px;
+//                 height: 100%;
+//                 border-radius: 20px;
+//                 box-shadow: 0 4px 20px rgba(0, 0, 0, 0.315);
+//             }
+
+//             .section-payment{
+//                 display: block;
+//                 // width: 332.98px;
+//                 .accept-payment{
+//                     margin-bottom: 100px;
+//                 }
+//                 .accept-payment, .transfer-payment{
+//                     margin: 80px 0;
+//                     // border:  1px solid rgb(4, 59, 95);
+//                     h1{
+//                         padding-left: 5px;
+//                         margin-bottom: 19px;
+//                         line-height: 29px;
+//                         font-weight: 600;
+//                         font-size: 24px;
+//                         font-family: moderat, sans-serif;
+//                         // border:  1px solid rgb(251, 255, 9);
+//                     }
+
+//                     p{
+//                         padding-left: 5px;
+//                         margin-bottom: 30px;
+//                         line-height: 32px;
+//                         font-weight: 300;
+//                         font-size: 20px;
+//                         font-family: $generalFont;
+//                         // border:  1px solid rgb(4, 59, 95);
+//                     }
+
+//                     button{
+//                         padding: 4px 5px;
+//                         display: block;
+//                         box-sizing: border-box;
+//                         font-family: Moderat, sans-serif;;
+//                         // @include button;
+//                         color: rgb(251, 78, 32);
+//                         height: 16px;
+//                         font-size: 16px;
+//                         font-weight: 500;
+//                         line-height: 16px;
+//                         border: none;
+//                         background-color: rgba(255, 255, 255, 0);
+//                         cursor: pointer;
+
+//                         img{
+//                             height: 23px;
+//                             position: relative;
+//                             top: 6px;
+//                             transition: transform 1s;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
